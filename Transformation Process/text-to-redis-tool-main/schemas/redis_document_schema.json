@@ -1,0 +1,432 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Redis Document Schema für Text-zu-Redis Transformation",
+  "description": "JSON-Schema zur Validierung von Redis-Dokumenten aus Markdown-Transformation",
+  "version": "1.1.0",
+  
+  "definitions": {
+    "redis_key_pattern": {
+      "type": "string",
+      "pattern": "^(doc|ch|para|subpara|chunk):[a-z][a-z0-9_]{1,29}:[0-9]{3}$",
+      "description": "Redis-Key-Format: prefix:identifier:number"
+    },
+    
+    "redis_set_key_pattern": {
+      "type": "string", 
+      "pattern": "^[a-z][a-z0-9_:]{1,50}:(children|sequence|next|previous|siblings)$",
+      "description": "Redis-Set-Key-Format für Beziehungen (IMMER :children, nie :chapters)"
+    },
+    
+    "hierarchy_level": {
+      "type": "string",
+      "enum": ["document", "chapter", "paragraph", "subparagraph", "chunk"],
+      "description": "Hierarchie-Ebene des Content-Elements"
+    },
+    
+    "iso_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Datum im Format YYYY-MM-DD"
+    },
+    
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2}$",
+      "description": "ISO 639-1 Sprach-Code (z.B. 'de', 'en')"
+    }
+  },
+  
+  "oneOf": [
+    {
+      "$ref": "#/definitions/redis_document"
+    },
+    {
+      "$ref": "#/definitions/redis_chunk"
+    },
+    {
+      "$ref": "#/definitions/redis_set"
+    }
+  ],
+  
+  "definitions": {
+    "redis_document": {
+      "type": "object",
+      "title": "Redis Document Object",
+      "description": "Top-level Dokument mit Metadaten",
+      "required": ["key", "title", "author", "created", "total_chunks"],
+      "properties": {
+        "key": {
+          "$ref": "#/definitions/redis_key_pattern",
+          "pattern": "^doc:[a-z][a-z0-9_]{1,29}:[0-9]{3}$",
+          "description": "Eindeutiger Redis-Key für Dokument"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "description": "Originaler Titel aus YAML Front Matter"
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Autor aus YAML Front Matter"
+        },
+        "created": {
+          "$ref": "#/definitions/iso_date",
+          "description": "Erstellungsdatum aus YAML Front Matter"
+        },
+        "total_chunks": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10000,
+          "description": "Gesamtzahl aller generierten Chunks"
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50,
+          "description": "Thematische Kategorie (optional)"
+        },
+        "language": {
+          "$ref": "#/definitions/language",
+          "default": "de",
+          "description": "Sprach-Code des Dokuments"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30
+          },
+          "maxItems": 20,
+          "uniqueItems": true,
+          "description": "Such-Tags aus YAML Front Matter"
+        }
+      },
+      "additionalProperties": false
+    },
+    
+    "redis_chunk": {
+      "type": "object", 
+      "title": "Redis Content Chunk",
+      "description": "Content-Element mit Text und Hierarchie-Informationen",
+      "required": ["key", "text", "level", "position"],
+      "properties": {
+        "key": {
+          "$ref": "#/definitions/redis_key_pattern",
+          "description": "Eindeutiger Redis-Key für Content-Chunk"
+        },
+        "parent": {
+          "$ref": "#/definitions/redis_key_pattern",
+          "description": "Key des direkten Parent-Elements (nicht bei Document-Level)"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 10000,
+          "description": "VOLLSTÄNDIGER Originaltext ohne Kürzung. Headers MIT Content: '# Header\\n\\nContent', reiner Content OHNE Header: 'Content'"
+        },
+        "level": {
+          "$ref": "#/definitions/hierarchy_level",
+          "description": "Hierarchie-Ebene dieses Elements"
+        },
+        "position": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100000,
+          "description": "Globale Position im Gesamtdokument"
+        },
+        "sequence_in_parent": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000,
+          "description": "Relative Position innerhalb des Parent-Elements (PFLICHT bei parent)"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "description": "Header-Titel (nur bei chapter/paragraph/subparagraph)"
+        },
+        "chapter_number": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Kapitel-Nummer (nur bei chapter-level)"
+        },
+        "section_number": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+$",
+          "description": "Sektion-Nummer wie '1.2' (nur bei paragraph-level)"
+        },
+        "subsection_number": {
+          "type": "string", 
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "description": "Subsektion-Nummer wie '1.2.3' (nur bei subparagraph-level)"
+        },
+        "context_title": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Titel des direkten Parent-Elements für Kontext"
+        },
+        "context_chapter": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Kapitel-Titel für RAG-Kontext"
+        },
+        "context_document": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Dokument-Titel für RAG-Kontext"
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "level": {"const": "document"}
+            }
+          },
+          "then": {
+            "not": {"required": ["parent", "sequence_in_parent"]}
+          },
+          "else": {
+            "required": ["parent", "sequence_in_parent"]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "level": {"enum": ["chapter", "paragraph", "subparagraph"]}
+            }
+          },
+          "then": {
+            "required": ["title"]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "level": {"const": "chapter"}
+            }
+          },
+          "then": {
+            "properties": {
+              "key": {
+                "pattern": "^ch:[a-z][a-z0-9_]{1,29}:[0-9]{3}$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "level": {"const": "paragraph"}
+            }
+          },
+          "then": {
+            "properties": {
+              "key": {
+                "pattern": "^para:[a-z][a-z0-9_]{1,29}:[0-9]{3}$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "level": {"const": "subparagraph"}
+            }
+          },
+          "then": {
+            "properties": {
+              "key": {
+                "pattern": "^subpara:[a-z][a-z0-9_]{1,29}:[0-9]{3}$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "level": {"const": "chunk"}
+            }
+          },
+          "then": {
+            "properties": {
+              "key": {
+                "pattern": "^chunk:[a-z][a-z0-9_]{1,29}:[0-9]{3}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    
+    "redis_set": {
+      "type": "object",
+      "title": "Redis Set für Beziehungen",
+      "description": "Set-Objekt für Hierarchie und Navigation",
+      "required": ["key", "members"],
+      "properties": {
+        "key": {
+          "$ref": "#/definitions/redis_set_key_pattern",
+          "description": "Redis-Set-Key für Beziehungstyp (IMMER :children für Hierarchie)"
+        },
+        "members": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/redis_key_pattern"
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": true,
+          "description": "Array von Redis-Keys der Set-Mitglieder"
+        },
+        "relationship_type": {
+          "type": "string",
+          "enum": [
+            "children",
+            "sequence", 
+            "next",
+            "previous",
+            "siblings"
+          ],
+          "description": "Art der Beziehung zwischen Elementen"
+        },
+        "parent_key": {
+          "$ref": "#/definitions/redis_key_pattern",
+          "description": "Key des Parent-Elements bei Hierarchie-Sets"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  
+  "examples": [
+    {
+      "title": "Beispiel Redis Document",
+      "value": {
+        "key": "doc:portfolio_management_strategies:001",
+        "title": "Portfolio Management Strategies",
+        "author": "Oskar Sch.",
+        "created": "2024-12-27",
+        "total_chunks": 47,
+        "category": "investment",
+        "language": "de",
+        "tags": ["finance", "risk", "portfolio", "diversification"]
+      }
+    },
+    {
+      "title": "Beispiel Redis Chunk (Chapter)",
+      "value": {
+        "key": "ch:risk_management_fundamentals:001",
+        "parent": "doc:portfolio_management_strategies:001",
+        "text": "# Risk Management Fundamentals\n\nDiversifikation ist der Grundstein erfolgreicher Investments.",
+        "level": "chapter",
+        "position": 1,
+        "sequence_in_parent": 1,
+        "title": "Risk Management Fundamentals",
+        "chapter_number": 1,
+        "context_document": "Portfolio Management Strategies"
+      }
+    },
+    {
+      "title": "Beispiel Redis Set (Children)",
+      "value": {
+        "key": "ch:risk_management_fundamentals:001:children",
+        "members": [
+          "para:portfolio_theory:001",
+          "para:risk_assessment_methods:002", 
+          "chunk:summary_statement:015"
+        ],
+        "relationship_type": "children",
+        "parent_key": "ch:risk_management_fundamentals:001"
+      }
+    }
+  ],
+  
+  "validation_rules": {
+    "description": "Zusätzliche Validierungsregeln für komplexe Constraints",
+    "rules": [
+      {
+        "name": "parent_level_consistency",
+        "description": "Parent muss höhere Hierarchie-Ebene haben als Child",
+        "constraint": "Wenn level='chunk', dann parent.level in ['subparagraph','paragraph','chapter','document']"
+      },
+      {
+        "name": "position_uniqueness",
+        "description": "Position-Werte müssen innerhalb eines Dokuments eindeutig sein",
+        "constraint": "Alle position-Werte eines Dokuments müssen aufsteigend und lückenlos sein"
+      },
+      {
+        "name": "sequence_in_parent_consistency",
+        "description": "sequence_in_parent muss innerhalb eines Parents eindeutig und lückenlos sein",
+        "constraint": "Alle sequence_in_parent-Werte eines Parents müssen bei 1 beginnen und lückenlos sein"
+      },
+      {
+        "name": "text_preservation",
+        "description": "Text darf niemals gekürzt oder zusammengefasst werden",
+        "constraint": "text-Feld muss kompletten Originaltext enthalten. Headers MIT Content: '# Header\\n\\nContent'"
+      },
+      {
+        "name": "set_member_existence",
+        "description": "Alle Set-Members müssen als eigenständige Objekte existieren",
+        "constraint": "Jeder Key in members-Array muss einem validen Redis-Objekt entsprechen"
+      },
+      {
+        "name": "children_set_naming",
+        "description": "Hierarchie-Sets müssen :children verwenden",
+        "constraint": "NIEMALS :chapters, :paragraphs etc. - IMMER :children"
+      }
+    ]
+  },
+  
+  "error_codes": {
+    "E001": {
+      "message": "Ungültiges Redis-Key-Format",
+      "description": "Key entspricht nicht dem Pattern prefix:identifier:number",
+      "example": "doc:Portfolio_Strategies:1 (Großbuchstaben und falsche Nummerierung)"
+    },
+    "E002": {
+      "message": "Fehlende Parent-Referenz",
+      "description": "Chunk hat keinen Parent obwohl level != 'document'",
+      "example": "chunk ohne parent-Feld bei level='chunk'"
+    },
+    "E003": {
+      "message": "Fehlende sequence_in_parent",
+      "description": "Element mit Parent hat keine sequence_in_parent",
+      "example": "chunk mit parent aber ohne sequence_in_parent"
+    },
+    "E004": {
+      "message": "Falscher Set-Name",
+      "description": "Set verwendet :chapters statt :children",
+      "example": "doc:example:001:chapters statt doc:example:001:children"
+    }
+  },
+  
+  "performance_constraints": {
+    "max_chunk_size": {
+      "value": 2000,
+      "unit": "characters",
+      "description": "Empfohlene maximale Textlänge pro Chunk für optimale RAG-Performance"
+    },
+    "max_chunks_per_document": {
+      "value": 10000,
+      "unit": "chunks",
+      "description": "Maximale Anzahl Chunks pro Dokument"
+    },
+    "max_set_members": {
+      "value": 1000,
+      "unit": "members",
+      "description": "Maximale Anzahl Members pro Redis-Set"
+    },
+    "recommended_chunk_size": {
+      "value": 500,
+      "unit": "characters", 
+      "description": "Empfohlene Chunk-Größe für optimale RAG-Performance"
+    }
+  }
+}

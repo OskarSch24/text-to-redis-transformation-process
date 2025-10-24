@@ -1,0 +1,322 @@
+# Text-zu-Redis Transformation Tool - Cursor Rules
+
+## Project Context
+This is the `text-to-redis-tool` repository - a specialized tool for transforming structured Markdown documents with YAML front matter into Redis-compatible JSON structures optimized for RAG (Retrieval-Augmented Generation) systems and N8N workflow integration.
+
+## Core Mission
+Transform hierarchical Markdown documents into Redis-native key-value structures while preserving:
+- Complete text content (NEVER truncate or summarize)
+- Full document hierarchy (Chapter → Paragraph → SubParagraph → Chunk)
+- Sequential order for navigation
+- Parent-child relationships via Redis Sets
+
+## Architecture Overview
+
+### Input Format
+```markdown
+---
+title: "Document Title"
+author: "Author Name"
+created: "YYYY-MM-DD"
+category: "category_name" (optional)
+tags: ["tag1", "tag2"] (optional)
+---
+
+# Chapter Header
+Content under chapter...
+
+## Paragraph Header  
+Content under paragraph...
+
+### SubParagraph Header
+Content under subparagraph...
+
+Regular paragraph content becomes chunks.
+```
+
+### Output Format
+```
+{RedisDoc: key=doc:clean_title:001 ; title="Original Title" ; author="Author" ; created="YYYY-MM-DD" ; total_chunks=N}
+
+{RedisChunk: key=ch:chapter_topic:001 ; parent=doc:clean_title:001 ; text="COMPLETE_ORIGINAL_TEXT" ; level="chapter" ; position=1}
+
+{RedisSet: key=doc:clean_title:001:children ; members=[ch:chapter_topic:001, ...]}
+```
+
+## Critical Rules
+
+### 1. Text Preservation (ABSOLUTE RULE)
+```
+✅ CORRECT: text="# Chapter Title\n\nComplete original content including all text, lists, and formatting without any modification."
+
+❌ WRONG: text="Summary of chapter content..." 
+❌ WRONG: text="Chapter discusses important topics..."
+❌ WRONG: Any truncation, summarization, or modification of original text
+```
+
+### 2. Redis Key Generation
+```
+Format: {prefix}:{clean_identifier}:{3digit_number}
+
+Prefixes:
+- doc: (documents)
+- ch: (chapters - # headers)  
+- para: (paragraphs - ## headers)
+- subpara: (subparagraphs - ### headers)
+- chunk: (content without headers)
+
+Clean identifier rules:
+- Lowercase only
+- Replace spaces with underscores
+- Remove special characters
+- Convert umlauts (ä→ae, ö→oe, ü→ue, ß→ss)
+- Max 30 characters
+- Remove German/English stop words for chunks
+```
+
+### 3. Hierarchy Mapping
+```
+YAML Front Matter → RedisDoc (doc:title:001)
+# Header → RedisChunk (ch:topic:001, level="chapter")
+## Header → RedisChunk (para:topic:001, level="paragraph") 
+### Header → RedisChunk (subpara:topic:001, level="subparagraph")
+Plain text → RedisChunk (chunk:concept:001, level="chunk")
+```
+
+### 4. Position System
+```
+- Every element gets sequential position: 1, 2, 3, ...
+- Children get sequence_in_parent: 1, 2, 3, ... within their parent
+- No gaps allowed in position sequences
+```
+
+### 5. Redis Sets for Relationships
+```
+{parent_key}:children → Direct children
+{scope_key}:sequence → Reading order
+{element_key}:next → Next element
+{element_key}:previous → Previous element
+```
+
+## Transformation Algorithm
+
+### Step 1: Input Validation
+```
+1. Verify YAML front matter has: title, author, created
+2. Confirm Markdown has hierarchical structure
+3. Ensure text content exists
+4. STOP if validation fails
+```
+
+### Step 2: Hierarchical Analysis
+```
+1. Extract document metadata from YAML
+2. Parse Markdown line by line
+3. Identify hierarchy levels (# ## ### vs plain text)
+4. Create element for each structural component
+5. Assign sequential positions
+```
+
+### Step 3: Parent-Child Assignment
+```
+1. Maintain parent stack based on hierarchy depth
+2. Assign each element to appropriate parent
+3. Generate parent-child relationship mapping
+```
+
+### Step 4: Redis Key Generation
+```
+1. Extract identifier from header text or content start
+2. Apply cleaning rules (lowercase, underscores, etc.)
+3. Handle collisions with auto-incrementing numbers
+4. Validate final key format
+```
+
+### Step 5: Output Generation
+```
+1. Generate Redis tags in position order
+2. Create Redis sets for all relationships
+3. Generate Redis commands (JSON.SET then SADD)
+4. Validate complete output structure
+```
+
+## Code Generation Guidelines
+
+### When Creating Transformation Functions
+```javascript
+// Always include full text preservation
+function createChunk(text, level, position, parent) {
+    return {
+        key: generateKey(level, text),
+        parent: parent,
+        text: text, // NEVER modify this - complete original text only
+        level: level,
+        position: position
+    };
+}
+
+// Always validate output
+function validateTransformation(redis_tags) {
+    // Check key formats
+    // Verify parent references exist  
+    // Confirm position sequences
+    // Validate text preservation
+}
+```
+
+### When Generating Redis Commands
+```redis
+// JSON.SET commands first (structure before relationships)
+JSON.SET doc:example:001 $ '{"title":"Example","author":"Author"}'
+JSON.SET ch:chapter:001 $ '{"parent":"doc:example:001","text":"FULL_TEXT"}'
+
+// SADD commands second (relationships after structure)
+SADD doc:example:001:children ch:chapter:001
+SADD doc:example:001:sequence doc:example:001 ch:chapter:001
+```
+
+## Error Prevention
+
+### Common Mistakes to Avoid
+```
+❌ Don't truncate text in any Redis tag
+❌ Don't skip position assignments 
+❌ Don't create invalid Redis key formats
+❌ Don't forget parent references (except for documents)
+❌ Don't generate duplicate keys
+❌ Don't mix up Redis command order (JSON.SET before SADD)
+```
+
+### Validation Checklist
+```
+✅ All Redis keys follow format: prefix:identifier:number
+✅ Every element has unique position number
+✅ All parent references point to existing elements  
+✅ All text fields contain complete original content
+✅ Redis Sets reference only existing keys
+✅ Navigation sets are bidirectionally consistent
+```
+
+## Output Format Standards
+
+### Transformation Response Template
+```
+# Text-zu-Redis Transformation Ergebnis
+
+## Input-Analyse  
+✅ YAML Front Matter: vollständig
+✅ Markdown-Hierarchie: X Chapters, Y Paragraphs, Z SubParagraphs, W Chunks
+✅ Text-Content: N Zeichen
+✅ Struktur-Integrität: valide
+
+## Redis-Tags (nach Position sortiert)
+{RedisDoc: ...}
+{RedisChunk: ...}
+[All tags in position order]
+
+## Redis-Sets (nach Key sortiert)  
+{RedisSet: ...}
+[All relationship sets]
+
+## Redis-Upload-Commands
+
+### JSON.SET Commands
+```redis
+JSON.SET doc:example:001 $ '{...}'
+[All JSON.SET commands]
+```
+
+### SADD Commands
+```redis  
+SADD doc:example:001:children ch:example:001
+[All SADD commands]
+```
+
+## Quality Control
+✅ N Redis-Keys generated, all unique
+✅ M Hierarchy relationships created
+✅ Position sequence correct (1 to N)
+✅ Volltext-Preservation: ALL text fields contain complete original text
+✅ Navigation sets bidirectionally consistent
+```
+
+## File Organization
+
+### Repository Structure
+```
+/text-to-redis-tool/
+├── README.md
+├── .cursorrules (this file)
+├── /schemas/ (4 files - Redis structure definitions)
+├── /prompts/ (3 files - AI transformation prompts)  
+├── /examples/ (3 files - real-world examples)
+├── /validation/ (2 files - quality control)
+```
+
+### When Working with Files
+- Reference schemas for Redis structure rules
+- Use prompts for consistent transformations
+- Validate against examples for correctness
+- Apply mandatory checks before output
+
+## Integration Points
+
+### With Claude Code/Cursor
+- This tool is designed for use with AI assistants
+- Prompts are optimized for Claude 3.5 Sonnet
+- Validation rules catch common AI transformation errors
+- Templates ensure consistent output format
+
+### With N8N Workflows
+- Redis-JSON output integrates directly with N8N Redis nodes
+- Hierarchical structure supports advanced RAG workflows  
+- Sets enable efficient content navigation and retrieval
+
+### With RAG Systems
+- Chunk-level granularity optimizes embedding generation
+- Parent-child relationships preserve context
+- Sequential navigation maintains document flow
+- Multi-level search (exact, contextual, sequential)
+
+## Performance Considerations
+
+### Large Documents (200+ pages)
+- Use streaming processing for memory efficiency
+- Implement batch uploads for Redis commands
+- Apply adaptive chunking strategies
+- Monitor memory usage during transformation
+
+### Redis Optimization
+- Keep individual chunks under 5KB for performance
+- Use efficient key naming for memory optimization
+- Batch Redis operations for faster uploads
+- Validate Redis health before large uploads
+
+## Development Workflow
+
+### When Adding New Features
+1. Update schemas if data structures change
+2. Modify prompts for new transformation logic
+3. Add examples demonstrating new functionality
+4. Update validation rules to catch new error types
+
+### When Debugging Issues
+1. Check mandatory validations first
+2. Verify Redis key format compliance
+3. Confirm parent-child relationship integrity  
+4. Validate text preservation completeness
+
+## Success Metrics
+
+### Transformation Quality
+- 100% text preservation (no truncation/summarization)
+- 100% hierarchy preservation (all relationships intact)
+- 100% sequence preservation (correct reading order)
+- 0% Redis key format violations
+- 0% orphaned chunks (missing parent references)
+
+### Performance Targets
+- <1 second for documents under 50 pages
+- <10 seconds for documents under 200 pages  
+- <60 seconds for documents over 200 pages
+- Memory usage under 512MB for any document size

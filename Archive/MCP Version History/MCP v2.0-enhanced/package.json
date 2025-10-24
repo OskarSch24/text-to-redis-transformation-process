@@ -1,0 +1,23 @@
+{
+  "name": "mcp-redis-server-enhanced",
+  "version": "1.0.0",
+  "description": "Enhanced Redis MCP Server with Set and Sorted Set support for hierarchical data structures",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "start:http": "node http-server.js",
+    "start:simple": "node simple-http-server.js",
+    "start:https": "node https-server.js",
+    "test": "node test-connection.js"
+  },
+  "keywords": ["mcp", "redis", "hierarchical", "sets", "sorted-sets"],
+  "author": "Database Project",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "redis": "^4.7.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

@@ -1,0 +1,1240 @@
+---
+title: "Brand Brief"
+author: "Oskar Schiermeister (CEO & President)"
+created: "2024-12-27"
+category: "branding"
+tags: ["AMQ", "brand-strategy", "performance-communication", "sales", "community"]
+language: "de"
+version: "001"
+---
+
+# Meta Data
+
+Dieses Dokument ist der Brand Brief.
+
+Version 001
+
+Oskar Schiermeister (CEO & President)
+
+Vertraulichkeitsstufe: Intern
+
+Quartalsweise updates
+
+# Introduction
+
+## Purpose of this Brand Brief
+
+The Brand Brief is the single source of truth that translates our mission—"create a community of like-minded, high-aspiration people who master sales as a sustainable skill" —into clear, actionable guidance for every human and AI system working on the brand.
+
+### Why this document exists
+
+- Unify direction. It aligns founders, team-mates, partners, and autonomous agents around a shared definition of who we serve and why our work matters.
+- Operationalise Performance Communication. By codifying that "performance communication is sales", it ensures every touch-point—from discovery call to product UX—helps prospects decide with confidence.
+- Speed up creation. Ready-made building blocks (tone rules, one-liners, pain points) let contributors produce on-brand copy, code, or strategy in minutes instead of hours.
+- Guarantee consistency at scale. Key phrases and principles are stored as atomic, tagged memories, so AI agents retrieve and reuse them verbatim—keeping our voice Commanding, Empathetic, Pragmatic across every channel.
+
+When this brief is referenced correctly, anyone—or any bot—can ship work that feels unmistakably "us," faster and with zero drift.
+
+This document is a synthesized form of my brand brief and business philosophy.
+
+## Who will use it and how?
+
+This document is used by AI agents within the n8n ecosystem who use the content of this document as context for the creation of social media, marketing and product creation content.
+
+## Where will the Information be stored?
+
+The Information of this letter will be stored in the ZepAI Memory Software for rather dynamic data and in the Supabase Database for Static data. Both of them will be placed in the n8n native workflows.
+
+## Is this part of a bigger knowledge base?
+
+This Document is basically an overview of the entirety of my brand and my business. The bigger framework will also contain the following documents:
+
+- Brand Foundation
+- Brand Brief
+- Business Philosophy
+- Visual Branding
+- Communication Rules
+- Executive Tasks
+- Goals
+- Tasks
+- Project Management
+- Strategy & Analysis
+- Customer Journey
+- Audience Analysis
+- Risk Analysis
+- Sentiment Analysis
+- Competitors Analysis
+- Content Library
+- Content Example
+- Hook Library
+- CTA Library
+- Video Examples
+- Copy Examples
+- Post Specific
+- Operations
+- SOP Overview
+- n8n Workflows
+- Job Description
+- Software Setups
+
+# Brand Overview
+
+## What is the brand name and what is the tagline?
+
+The Brand is called AMQ.
+
+The tagline is: "Ask more Questions©" focusing on my philosophy that asking more questions makes better sales.
+
+## Formulate the elevator pitch in a maximum of two sentences
+
+AMQ is an online community on skool uniting people who see performance communication as a key skill—combining timeless rhetoric with cutting-edge AI and automation.
+
+## What is your Mission?
+
+### Ancient Arts & Future Tech
+
+The mission is to create a community, a community of like minded people, those have high aspirations and big dreams for their life. Those who understand that sales and business will help them achieve those goals. I want to build a community of those who are not interested in the quick through methods but those who are actually interested in learning real and sustainable skills and getting educated on another level.
+
+The primary topics that will be taught, discussed and implemented are directly in relations to sales or as I prefer to call it: "Performance Communication", Communication for the sake of getting to achieving a goal through it.
+
+What will be taught is a mix of the ancient arts of communication (Verbal/- and non Verbal) and modern technology in the form of AI Agents, AI Automations also with a focus on Sales and monetary beneficiancy. (That's the Brand and the Mission, the mix of the both)
+
+### I am teaching them...
+
+The Mission is to teach the students and community members, on Skool, the frameworks and individual little key aspects and details how to operate within these frameworks. When the community content is completed, the student will have comprehensive knowledge of linguistics, body language, mimicry, tonality, strategy, sales structure, behavioral psychology, learning psychology, neurology and hormonal biology.
+
+### The Community does...
+
+The Community does focus on two fundamental aspects, learning and practice. The learning part, previously explained is the content of the Skool as well as, for more advanced member, books that'll be set as assignments. When it comes to practice, there will be a few different opportunities for them. There will be the classical practicing calls, the Q&A calls directly for the educational content, the sales calls where people can present there offer either by request in an open call or they can buy a private coaching session. They will also have the opportunity to engage in a chatroom. The mission behind the practicing system is to actually get them from educated to skill.
+
+### Don't become a Salesman
+
+When one think about a salesman they probably think about Gordon Gecko, Jordan Belfort, Insurance/- and Real Estate Agents as well as any type of online coach is talking about the same random bullshit.
+
+The: "Click on the Link and get the entire Product/Service for free", type of coach with the fake disappointing leadmagnet that is just telling people what their problem is, with no type of solution.
+
+These people paint a picture onto the general public that the hole purpose of the salesman is to exploit peoples weaknesses, trust for other people and lack of experience in handling assholes.
+
+The frame that they create through their actions makes the people distrust and also distance from the general skill of sales itself.
+
+This destructive mindset causes a lot of issues in the general public because they don't learn to fix their communicational issues.
+
+The amount of conflicts that arise from misunderstandings the compound over time is crucial. No one carries the actual skill to look into another persons mind to see how they think and therefore how they behave and act. The salesman is capable of that super power in the most surgical and powerful and surgical way one can imagine. The precisiveness and capability of a salesman to understand the other person is incredible. Yet most use this power to exploit other people for their money and hard earned resources and I don't want to preach super moralism and socialist ideas. I very well think that and individual especially a business man should be capable to withstand the common salesman.
+
+Yet I don't want to have the general public perceive that all sales is exploitation but way more than that.
+
+A big part of the mission is to de-frame the sales man and show that the skill doesn't belong to the framed individual and not just the guy in the suit.
+
+The Idea is that people learn to have better communication in their personal and business life.
+
+## What is the AMQ Vision?
+
+AMQ envisions a community where sales and communication are approached as learnable, honest skills, rooted both in proven principles and in evolving technology. Our aim is to create an environment where people actively exchange practical knowledge—from classical rhetoric to new AI tools—and continuously develop their abilities in an open, supportive network.
+
+We want to provide a long-term platform where members challenge and improve outdated views of sales and communication by focusing on clarity, ethical behavior, and ongoing self-development. We strive to set a new benchmark for how communication can be practiced: fact-based, responsible, and adaptable to the real needs of individuals and teams. Over time, our goal is to bring together diverse backgrounds and experiences, turning AMQ into a reference point for anyone who wants to understand, apply, and advance the craft of communication and ethical influence in a digital age.
+
+## What's the unique value proposition?
+
+AMQ teaches Performance Communication – a fusion of ancient rhetoric and razor-sharp AI automation – so you can enter a prospect's universe, ask the questions no one else dares, and guide them to a decision they're grateful for. No sleazy scripts, no Wall-Street shark act – just decisive, trust-loaded talks that print revenue at scale.
+
+### Future Content (Vision/Mission)
+
+- Educate people
+- De-Sanitize the people
+- Destroy the Idea of the Salesman
+- Create a giant peer-group of authentic (anti-actor) sales professionals
+
+# Business Philosophy
+
+## Purpose Statement
+
+### The part about business
+
+Ask more question the mantra and philosophy, it's the antidote to the societal disease of narcissism. People are so inwardly directed that at any interaction they are looking for their own benefit, even when they try to be helpful.
+
+## Personal & Professional Values
+
+### Sales is the greatest skill in the world - if you reframe it!
+
+Your life runs on two lines that determine everything.
+
+- First: Time of life - how long you live. Extended through physical and psychological health. Straightforward.
+- Second: Quality of life - accumulated result of pursuing goals, realizing dreams, making directional progress. Height depends entirely on your decisions.
+
+Decisions are crossroads where life changes direction.
+
+- Bad decision = decrease in life quality
+- Good decision = increase in life quality
+
+These lines are dynamically interlinked. Poor quality impacts health. Poor health degrades decision-making. The cycle reinforces itself in whichever direction you're heading.
+
+Since lifespan has limits, decision quality becomes your primary leverage point.
+
+### What improves decision quality? Three sources:
+
+- Your own experience - most reliable but slowest to acquire
+- Knowledge and skills - faster to gain but less personalized
+- Expert guidance - fastest path but requires trust
+
+You don't need to learn everything yourself. Leverage others' experience, knowledge, skills. Saves years of trial and error. One conversation with the right expert can transform a major life decision.
+
+This is where salespeople should enter. Life-changing decisions are high-stakes—they affect your future in major ways. When you let someone help with these decisions, you share personal goals, fears, and uncertainties. Sharing this information makes you vulnerable to the other person.
+
+Because of this vulnerability, you won't accept help from just anyone. You need to trust the person deeply—otherwise, you will hold back or reject their guidance. Therefore, having someone help you make life-changing decisions requires deep trust. Without trust, their expertise is worthless. You won't listen. Won't act. Value can't transfer.
+
+Trust is the core foundation of sales.
+
+When someone offers help with an important decision, your first question isn't about credentials. It's "Can I trust this person?" Trust determines whether you accept their guidance or reject it entirely.
+
+The best salespeople understand this. They help people make better decisions. Share accumulated wisdom to help others avoid mistakes and accelerate success.
+
+Not about selling - about becoming a trusted advisor for life decisions.
+
+Every interaction either builds trust or erodes it. Great salespeople focus obsessively on building trust. It's the only way to truly help someone change their life trajectory.
+
+Sales isn't about convincing people to buy. It's about earning trust to help them make decisions that improve quality of life. View it this way, it becomes invaluable - ability to compress decades of experience into someone else's critical moment.
+
+In a time-limited life, those who help others make better decisions faster create extraordinary value. That's why sales, properly understood, is the greatest skill in the world.
+
+### Follow Up: Salesman shouldn't be who they are
+
+I'm afraid that everything about the classical salesman that you have in mind, is true. The blank white teeth type of smile, like an american lawyer a suit made out human souls and the only thing they have in mind is how to make as much money as possible even if that requires ripping of people. They're are not looking to deliver value on the marketplace, they just take not give.
+
+Yet that is not what it needs to be.
+
+In the show, the falcon and the wintersolider from the marvel universe there was a mad scientist who create the superhuman serum that also created captain america but in a way that the people who became super humans look the same as before, not pumped up with muscles. They are super humans undercover. That's what the essence is and should be. Being skilled undercover, not trying to play a role in a movie what most young salesman do, they adapt certain characteristics and personality traits.
+
+### We are not politically correct but we are fair and we listen
+
+I believe in a society and a world where resilience trumps being a constructed artificial nice guy that try's to fit in by following a ruleset of the permission of what to say or not to say.
+
+Bullying is not nice and certainly not the goal I want to target with this, it is rather that the focus should lie on handling our personal wellbeing ourself instead of relying on other peoples kindness for it.
+
+Simple logic, If we try to build a world where everyone is nice, we create an expectancy of how we should get dealt with when we should feel good and when not. The problem is, people will not fit these expectancy's since what is nice and what not is subjective and belongs to context and culture.
+
+So rather then trying to put being an asshole to an end I'd argue, learn decide yourself how words and action should affect your mood. It is in your control how you feel. If I can call you "something" knowing how you'll react, it's in my control and I can play with you.
+
+That being said, you should always be polite and you should be open and empathetic when it comes to other peoples desires, that is your job and none else. So keep your political incorrectness in balance and if someone is in need of different communication, try to adapt, but just not to a point where they want to take control over your behavior, that's on you to decide.
+
+### Good is subjective
+
+When I tell you what's good and what's bad it is directly tied to the ideas of how I want my life to be lived and my desire to pass that on because of my believe that it might be helpful for my next. Yet when you want to have a good life, you need to know what you find good, what you find bad. Find it for yourself.
+
+### Life is not a game of luck, life is a game of probabilities
+
+You can increase the probability by more output (=Action) which is limited by the energy, focus and time you have within your 24h and also by the leverage (=Knowledge&Skill) you have per Unit of Output (1hour of work). Meaning by more work and increasing the quality of this work you can increase the likelihood of success.
+
+### Life rewards action
+
+Without action, education is just mental masturbation and brain porn. It will only help you in non productive situation, to impress people at the bar or play the role of a successful person. If action is not part of the process, the process has not started.
+
+### Learning Entirely
+
+Skill and Knowledge is not just a systems tool to get a job or build a house. It is the reflection of the outcome of your action by quality and quantity. Learning something doesn't just mean being able to handle a certain usecases. It means that your Hands write better words, your legs run longer miles, your mouth speaks words that are more beautiful and your mind thinks better thoughts.
+
+### Ignorance is the killer of development
+
+If I would've been sustainably successful I'd probably had stopped to educate myself on such an extensive level that I'm now. Success creates arrogant people, especially in sales, since you'll be able to make great amounts of money just by your voice. Yet the level on which I now is thanks to asking more questions, learning more topics and deepening on those topics. If you stop educating, thinking that you know how to do it, you'll stop progressing.
+
+### Not the fastest but the best
+
+One can be the fastest for oneself but other than that, we are capitalists and what we build is value in exchange for money or other monetary assets. So what we do is not the fastest way for us to make money but the best thing our client or customer can get.
+
+In terms of the product, the customer journey, the personal brand and the human they are interacting with.
+
+Following the sentence of Hormozi: Offer them a product so good, that they would feel stupid to say no.
+
+Will you be the first to reach the finish line (e.g. $1,000.000)?
+
+-> No but you'll be the one who stays at the peak the longest. Sustainability
+
+Value is subjective but that doesn't mean that your job is to create the frame by mouth but also through your product. The subjective value should be sustainable not fading after the close.
+
+### Avoid the paramoralistic, marketing agency, newWork type of Culture
+
+We all operate in a partially evil industry and participate in it. Some are authentic enough to reflect, that they understand these aspects. Yet some like OMR are those who act as if they have a super moral high ground while they are pro actively outputting content that is meant to be hyper addicting.
+
+### Make your business art!
+
+To many people no the market are spamming the world of internet, with their quick tips and tricks, the fastest possible mechanisms, blank sheets, worse designs, no brand no love for the detail and creating great visual aspects, they do the minimum effort to get to their goal. Create something that is not just efficient but also beautiful. Don't become a member of the spamming community.
+
+### Sanitary Lifestyle Issue
+
+Success is found in an Office, strength is build in a gym, people judged through the phone, statistics and studies determine wether reality is valid or not. People are not talking to people, bad place get judged yet not visited.
+
+You're not a warrior if you trained in a gym. You've become one living in the jungle.
+
+You don't help the poor by reading and writing about them. But by living amongst them.
+
+You wont understand the cultures by sitting in university. You understand them by living among them.
+
+### Life is dynamic and not static
+
+When you binge through YouTube to consume motivational content and look for tips and tricks to improve your knowledge, the most common pattern I observe is these "Best (Number), Top (Number)" type of videos. They preach a reality in which there are best ways of doing something… Period.
+
+Yet in reality, the best advice is usually only true in a certain situation which is also linked to more variables that create the situation.
+
+For instance: If you'd ask me about the best piece of advice about sales, I would obviously tell you to ask more questions, yet in some situations, you are in a call with a well experienced business man who has done his upfront research on you, who knows what he wants and who doesn't want to talk about his issues with you. He know what he wants and he will tell you.
+
+What's the point?
+
+You need to say goodbye to the idea that there are super tips and tricks that will be evergreen and always help you in every situation, it's simply not true.
+
+What you should do is to become so skilled and so perspicacious that you develop a situational sense by which you become super capable at acting properly in the moment, become spontaneous.
+
+### There is always a solution for everything
+
+This is a key aspect of my mindset. I came up with the thought that there is always a solution for everything when I worked with individuals that have worked past something where I saw a barrier.
+
+They showed me that if you ask how, you'll always find a solution even if it is not perfect or if it is not working at the moment. You'll gain an understanding for the world which makes stand apart from the general public, only asking themselves whether/- or whether not something works in general.
+
+I understand that there are obstacles that wont work for you in the situation you're in but simply the mindset and openness for a inner problem solving methodology helps you to get past barriers that seemed unpassable.
+
+### You overcomplicate it, it's not difficult, it's just a lot
+
+As far as I understand it, things are not hard to do, especially when it comes to success. One key part if my mindset became to think of topics not like hard or not hard but in amount of units to understand. If I have a simple topic: like riding a bike it is easy because the constants and variables remain small to understand, kick the pedal for force and move the handlebars for direction. While when we are talking about quantum physics, there are simply more tiny units a parts of information that need to be processed in order for me to understand the topic. The same for success. There are simply a lot of different tasks, steps or units that need to be processed to make 1 Million Dollars. It's not difficult, it's just a lot. It becomes hard when you decide to compress the amount of tasks into a very small timeframe with expectations that exceed your capabilities.
+
+## Personal & Professional Believes
+
+- Christ is King.
+- Ask more questions.
+- You oversee to much.
+- You don't know, learn more!
+- Education is ridiculously easy.
+- Nutrition & Anatomie include about 500-600 Vocabularies. That's less than 1% of a bilingual speaker.
+- There is always a solution for everything.
+
+## Principles
+
+### Principles in Sales
+
+#### People need to be led, Dominate with empathy
+
+Most people never learned to make confident decisions. They hesitate at the crucial moment - even when they want to move forward. They know what they should do. They know what they want to do. Yet they freeze. This is where leadership with empathy is key. In sales, don't manipulate. Guide them past their own hesitation. When you genuinely understand that your offer solves their problem, you have a responsibility to help them overcome their indecision.
+
+You don't tell them what to do. You make the right choice so clear, so obvious, that they feel empowered to make it themselves. This does require empathy - understanding their fears, their doubts, their situation completely. Only then can you address each concern until confidence replaces hesitation.
+
+The paradox of ethical influence: The more you genuinely care about their outcome, the more naturally they'll trust and follow your guidance. The more they trust you, the easier it becomes for them to make the decision they already wanted to make. You're not deciding for them. You're removing the fog of uncertainty that clouds their judgment. You're creating conditions where the obvious choice becomes the easy choice.
+
+Principle: Take command of their indecision. When you're confident that you can help them, lead them towards making the right decision. Understand their inner roadblocks and clear each one until there is no reason left to not decide. Do not wait for permission from them, they want yours. They're looking for someone to lead. Be that person.
+
+Exception: Your job of the salesman is to identify if one can make the decisions necessary to join or not. Easily determined by your perception of their confidence.
+
+#### People wish to be understood
+
+Although most people are kinda bitchy about their problems, it's the salesman's job to be empathetic. The job to listen and show the prospect that they are heard by you. People love to complain, yet no one comes to solve their problems. They just reply with their complaints.
+
+Everyone just fucking listens. Nobody fixes anything.
+
+Think. How many people have listened to your problems? Lots. How many actually solved them? Exactly. Be the one who listens, solves, and makes them stop complaining. Not because you shut them up - because you eliminated what they're bitching about.
+
+When prospects realize you're not just another head-nodder but someone who actually ends their problems, they stop seeing you as a salesman. YOU become their solution.
+
+#### Break their defense and make them confident (vulnerability)
+
+Sales requires trust.
+
+Why?
+
+Because you need to give your prospect the feeling that he can securely open himself up to talk about his or her issues and problems, that is not easy for everyone.
+
+It makes them vulnerable because at this point they give you information that could hurt them, maybe when it comes to their public image, their actual skill or confidence.
+
+If they open up and tell you their secret source, you hold some kind of power in your hand and that is not something to handle sloppy.
+
+So you need to be capable to break them in way minor way.
+
+Yet… and that's the discipline, at the end of the call they have to be super confident in their decision to spend money on you and especially to get help from you.
+
+Meaning that your skill lies not only in speaking very eloquently but also in being able to influence their emotions in a waveform. Your true skill lies not only in speaking persuasively, but in carefully guiding your prospect's emotions—always with the intention of helping them, never exploiting their openness or trust.
+
+#### F*ck the script: understand the framework
+
+A script is a tool that is quite helpful when you are starting out with sales because it provides you with a framework and text to speak, yet it is not very helpful when it comes to actually learn how sales work.
+
+It presents a perspective which acts as if it was about saying the right words or saying a magical sentence, completely disconnecting from tonality and which emotions you have to trigger at what point.
+
+It doesn't necessarily tell you why things work within the script. It only gives you something to say, it might work, or it doesn't. Something I observed in every company that I've worked at.
+
+Yet the reason why someone was successful in sales, was because he was super confident in his position, super confident usually appears very authentic and the scripts that are read therefore usually sound as if the person was speaking from the depth of the heart and not from a script.
+
+I argue that it is not key to have words, exactly placed at a certain position, but rather to have some kind of structure in mind. A structure that helps you to understand when it is time to ask questions, when to present, address their issues and so on.
+
+#### Beginning --> End
+
+The sale starts at first contact. At first sight. Even on social media. Every interaction is selling. That look across the room. That profile view. That comment on their post. You're already in the game.
+
+Most people think selling starts when you pitch.
+
+Wrong.
+
+It starts the second they become aware you exist. Your posture sells. Your bio sells. Your response time sells. Everything communicates value or destroys it. The sale ends when your client walks away. Not when they say yes. Not when money changes hands. Not when the contract is signed. When they walk away. Until that moment, you're still selling. The relationship. The next deal. The referral. Their trust in their decision. First contact to final goodbye - it's all one long sale.
+
+#### It's less about what you say—not even how you say it—but about who you are
+
+Most people obsess over their script. They practice their tone. They perfect their delivery. And they're not wrong—these are real skills. But here's what matters more: Are you someone you like? You feel it when you're not the person you're acting as. They feel it too.
+
+Always.
+
+Perfect words and flawless delivery still work. But it's harder. Way harder. Every interaction becomes a performance instead of a conversation. Get your shit together and become someone you can like. Work on becoming a great person rather than just talking like one. When you are what you sell, selling becomes natural.
+
+#### It's not about being right; it's about showing them how to think about something
+
+Doing my time selling for other companies the I never really reflected this up until a few month ago but in sales and specifically in negotiation it often time appears as if the salesman is trying, through tricky and skilled argumentation, to outsmart and outspeak the prospect. They try to formulate their the sentences in a way that makes the prospect speechless in order to put them into a corner where they start to think that if they have nothing else in mind to say right now, the salesman has to be right. But that's usually not the case, it's just trickery and on the long rung makes your clients feel bitter.
+
+Not what you want.
+
+The reality is, that in these moments of argumentative turmoil, you're not trying to outsmart them but to use words and non-verbal communication to frame the arguments in a way that your prospects see the benefits as clearly as you do.
+
+You use your skill in the negotiation to shift their perspective on the argument or the topic to see it in the same way that you see it. You want to shift they reality towards really understanding the value of what you're selling.
+
+### Principles in Action
+
+#### Patterns/Frameworks < Techniques/Tricks
+
+A big issue of the formal education world is that you only get taught usecases, random facts or overall theory behind a certain disciplines. What is not taught, at least not in my education and from non that I've known it to be different, is the actual core Idea behind something and the framework of it.
+
+Example: I've had to learn excel in school and besides a few facts about it's origin and idea of use, I've just learned special usecases that might be important. I had learn these to get tested in them. Learning the Framework instead of the technique in this cases means that first I want to understand why someone invented Excel because as far as I understand tools (Excel, Math, Grammar, etc.) they we're made and fine-tuned to simplify something not to overcomplicate it.
+
+The next thing is to learn the tools within the discipline, the tools in which it operates, for grammar it might be the noun and for excel it might be arithmetic operators or else. Understanding why something is build and how it was setup as well as how it works from the ground level will actually help you in live. Because now that I would know these, I wouldn't need to simply memorize the excel equation but I might be able to connect the dots in my mind myself, I have the goal in mind and all the tools.
+
+[Even Stochastics, a mathematical discipline consider super complicated was made to explain a process in a simpler version than it was describe previously or at least getting mapped out in general.]
+
+#### Sub: Core-1 thinking & the logical chain (First Principles Thinking)
+
+Maneuverability through knowledge and education. Learn in a way that, when the variables change, you still understand.
+
+#### Sub: Soldier Algorithm
+
+When one is learning a topic, it's not the job to learn it just for the sake of understanding it but to implement it into your organism on a sub-atomic level. Especially in sales, since I preach to not read from a script freely and to understand the entire framework I also argue that the best thing to do is to become so good that just reactionary you are saying and doing the appropriate thing in every situation.
+
+I call this the soldier algorithm, a soldier in battle who has to recharge doesn't need to know the steps, when he's recharging he's not thinking about doing the steps, he instinctively knows what to do so well that he does it in perfection same thing in sales.
+
+#### Sub: 5-Step-Musk
+
+The Core Problem: Smart people often improve things that shouldn't exist because we're trained to answer questions, not question them.
+
+- Step 1: Make Requirements Less Dumb
+- Step 2: Delete Parts/Processes
+- Step 3: Simplify/Optimize
+- Step 4: Accelerate
+- Step 5: Automate
+
+The Common Mistake: Most people work backwards (Automate → Accelerate → Simplify → Delete), ending up automating and optimizing things that shouldn't exist.
+
+Key Insight: Always start by questioning if something should exist before trying to improve it. The most dangerous trap is perfecting something that shouldn't be there at all.
+
+#### Create an Art and Delete
+
+Platforms today are either functional or beautiful, yet almost none of them really manage to combine these together. They either focus on simplicity or on visually appealing to the consumer. Yet I've experienced, in music how both work, how to create an artwork that is simple enough for the listener. Fey is an example in the software world. It work by creating an artwork and deleting what's unnecessary.
+
+#### A day has 24 Hours - Leverage is the key
+
+When you compare yourself with someone who's achieved what you want to achieve - like Elon Musk in business - the difference isn't what's publicly believed. The popular narrative says he simply "works harder" than you.
+
+But what tf does "working harder" mean?
+
+More hours?
+
+That's logically wrong.
+
+There are 24 hours in a day. Musk said he sleeps 6 hours. That leaves 18 hours maximum, minus time for eating, basic hygiene, and unavoidable daily tasks. Maximum productive capacity: about 16 hours.
+
+To sustain even this peak output requires optimal physical condition, perfect sleep quality, exceptional nutrition, and extraordinary purpose-driven motivation. You'd need to sacrifice nearly everything else. Without these, you'll burn out within a week.
+
+"Performance enhancing drugs should never be the solution."
+
+Here's the critical point: Musk, Bezos, Gates, you, and I all have the exact same 24 hours. Yet their output dominates most people's by orders of magnitude.
+
+Why?
+
+Since time is constant, the only variable is leverage, meaning how much force each hour generates.
+
+It's not the hours in your work - it's the work executed in those hours.
+
+What creates this difference? It's not talent - that's largely fixed. It's not luck - that's not replicable. It's not just starting advantages - many succeed without them. The consistent factor across all high achievers is leverage.
+
+- Leverage better decision making quality where choices create domino effects.
+- Leverage billionaire networks where one conversation can make millions.
+- Leverage expertise - decades compressed into moments.
+
+Since time is fixed at 24 hours, only leverage changes - how much each hour produces.
+
+Leverage works through three core multipliers:
+
+- People (delegation),
+- Systems (automation),
+- Knowledge (better decisions).
+
+They lead resources that scale. They build systems that work without them. Every action they take has been optimized for maximum force multiplication.
+
+The question becomes: How do you increase your the quality of output?
+
+Continuous education + with implementation.
+
+- Knowledge without practice is worthless.
+- Each new skill compounds your existing capabilities.
+- Focus on high-leverage skills e.g rhetoric, systems, leadership.
+
+Develop meta-skills: meaning the skills that improve all your other skills.
+
+Logical chain: Meta-skills lead to better learning from each experience-> which accelerates skill acquisition -> which compounds your knowledge base- > which makes you a higher-powered engine.
+
+If you upgrade your inputs means getting better information sources will lead to better decisions. Higher-quality relationships open bigger opportunities. Refined taste helps you recognize what truly matters.
+
+What many miss is when you become significantly more educated and skilled, you can work fewer hours yet generate substantially more momentum. You become a "higher-powered engine" - every action, every word, every decision has more weight.
+
+Learn from the best. Practice deliberately. Reflect ruthlessly. Implement immediately.
+
+Time is the only true equality. What separates the extraordinary from the average isn't time - it's what they can accomplish with that time. Build leverage, and watch your hourly impact accelerate exponentially.
+
+While Musk is just one example, this pattern - maximizing leverage rather than hours - appears consistently across all types of high achievement. Physics are simple: when input (time) is fixed, only the multiplier (leverage) can change the output.
+
+#### Do until perfect (1-Session-Framework)
+
+Let's say you want to create a good short video. You prepare your script, set up the lighting, check the sound, and plan to edit carefully. But often, you rush through some steps and skip small details, just for the sake of finishing it—to have something to present, something to show off. This leads to stagnating progress because you develop a rather step-by-step routine than a power through routine.
+
+A better way is to find one great example of what you want to achieve—something that shows the quality you're aiming for. Then, set aside a full day and focus completely on making your video match that example. Take your time, fix every detail, and don't stop until you're as close to the standard as possible. You might not get it perfect on your first try, but you'll create something much better—and you'll learn new skills much faster than if you just practice a little bit each time.
+
+### Principles in Feedback
+
+#### Mistakes are desired - if they come from trying
+
+A mistake that arises from attempting something new or handling multiple tasks at once is welcomed and appreciated, provided it is reflected upon and handled properly, and seen as representative of progress and effort. When daring to attempt something difficult but productive, mistakes reveal the gaps and problems in the system that can be fixed to make it function.
+
+#### Mistakes are forbidden - if they come from negligence
+
+If mistakes come from sloppy work, not listening, or not approaching the matter wholeheartedly, it is not tolerated.
+
+#### Feedback is the core of desire in business
+
+Feedback is welcomed and even encouraged. As a good capitalist, it is my wish that my customers are as pleased as possible with the product and that it helps them further. Every kind of feedback is desired, regardless of whether it is harsh.
+
+#### Criticism
+
+If the criticism is something that can be worked with, because it aims at improving mechanisms to help the customer, it is welcome. If it concerns the personal brand or similar, the critic can go fuck himself.
+
+### Principles in Innovation
+
+#### Synthesis the old and the new: Ancient Rhetoric + AI
+
+There are numerous examples indicating that the future will be so highly automated and dominated by AI that, across multiple fields, the central question will become: How will you act and interact within communities? Ancient Rhetoric and communication is representing the sustainability aspect while innovation is represented by the AI aspect.
+
+What makes me believe this is the case?
+
+- Education
+- Social Media
+
+#### Education:
+
+I acknowledge that most people in society already recognize that the educational system in the West is outdated, slow, and boring. However, it is a misconception to claim that the content taught in schools is useless.
+
+There is value in what is currently being taught, but the focus should not be on what might still be considered important simply because governments or institutions persist in using outdated systems. Instead, the emphasis should be on identifying and teaching the most important and relevant information for modern times.
+
+People are aware of this.
+
+What is less frequently considered, however, is the possibility that the educational system itself may be replaced by artificial intelligence.
+
+My hypothesis is that students—even the youngest—will, driven by their intrinsic curiosity, begin to take their education into their own hands. With the support of AI-powered online resources, they will be able to learn topics much faster, more effectively, and in a far more engaging way. Thanks to AI, education can become so personalized that every student, whether young or adult, will have access to something tailored specifically for them, thereby gaining the motivation and sense of purpose that traditional schooling often cannot provide in the same timeframe.
+
+One might argue that schools could eventually integrate AI, but the issue is that traditional education systems are not fundamentally built around AI, whereas new educational companies will be.
+
+As a result, students will become so well-educated through these new methods that the offerings of traditional schools will seem too slow by comparison.
+
+The underlying premise is that students will be able to learn more efficiently and effectively on their own. Yet, they will still feel the need to connect with others. I believe this will lead to the rise of autonomous communities or new types of institutions where learning takes place collectively in peer groups, rather than within the traditional teacher-student hierarchy. Within these groups, those who are the most effective communicators will stand out.
+
+AI is undoubtedly the future and will automate almost everything, but our desire to connect with others—and therefore our ability to communicate—will become the second most important factor.
+
+#### Social Media:
+
+Social media is important because you can talk to many people with very little effort. Before social media, if you wanted to speak to a big group, you needed to rent a stadium. Now you can reach just as many people online from your home.
+
+A real stadium is filled with people who are truly interested in you. These fans are strong supporters. Online, you can get a lot of attention, but sometimes people do not care as much.
+
+People choose to follow you online if you show them something valuable, interesting, or entertaining. If your posts are boring, people will not follow you for long.
+
+One important thing is that people like to follow other people more than companies. This is why personal brands, like Elon Musk, get more followers than company brands, like Tesla.
+
+People like to see a real person, their ideas, and their life.
+
+Right now, something new is happening. Artificial intelligence, or AI, is starting to change social media. AI agents are computer programs that can do tasks for you. Today, AI can already make simple posts that look like a person made them.
+
+If you use better AI tools, you can make content that is very special for each person. For example, with things like databases and trend analysis, AI can learn what people like and make posts that fit their taste.
+
+You can use tools like n8n to connect all this together. This means AI can make posts that are not only fast and cheap, but also very interesting for each user.
+
+If you use an advanced AI system, sometimes called Agent2Agent, it can make content that is almost impossible to tell apart from what a real person makes. This is true for videos as well, not just text.
+
+Right now, making AI videos is very expensive. Most people cannot do it yet. But technology is moving fast. Soon, everyone will be able to use these tools.
+
+If everyone can make a lot of content, the internet will be full of posts and videos. There will be so much to see that it will be hard to get noticed.
+
+People might see your post for one second and then move to the next. There is too much choice, so attention becomes more valuable.
+
+Since there is so much automated content, people will start to look for something real. They will want to find smaller groups where they can talk and share with others.
+
+These groups are called communities. In these communities, people can trust each other and have better conversations.
+
+If online spaces feel less real because of all the AI, then people will spend more time meeting in real life.
+
+They will want to make strong friendships and real connections, not just online likes.
+
+If you want to be successful in the future of social media, you need two things. First, you must learn how to use AI tools to make content.
+
+Second, you need to be a good communicator who can build trust and make people feel part of a community.
+
+Because of all these changes, the real value will move away from just posting online, as much as it is today. The true winners will be people who create real connections, both online in actual communities and offline in the real world.
+
+# Brand Identity
+
+## Which 3 adjectives describe your brand personality?
+
+- Decisive (Cuts through confusion, guides others, never hesitant)
+- Empowering (Focuses on others' growth, wants people to transform, not just transact)
+- Straightforward (No fluff, clear, direct—logic and transparency over showmanship)
+
+## What kind of tonality or voice guidelines apply to your communication?
+
+Our brand voice is confident, direct, and honest. We don't hide behind jargon or unnecessary politeness. We speak with authority, but always show real understanding for the person we address. Sometimes that means being bold and challenging, sometimes it means being empathetic and supportive—but it always means being clear, authentic, and logical.
+
+If you want to write or speak for this brand, ask yourself:
+
+- Am I saying what needs to be said, or just what's easy?
+- Am I truly helping the other person, or just trying to sound smart?
+- Does every sentence have purpose, flow, and honesty?
+
+For practical guidance, use our full set of 12 Communication Rules (see Business Philosophy, Tab 3). They are your toolbox for any situation—whether you're writing a post, talking to a client, or handling feedback.
+
+## Do's & Don'ts for Our Brand's Language & Behavior
+
+We actively highlight evidence-based tools, faith-aligned service, and health-first products that foster disciplined growth, integrity, and clear thinking; yet we categorically reject anything that trades on explicit sexuality, junk-food or crash-diet hype, influencer-style flexing, parody that mocks faith or struggle, disposable consumer fads, addictive vices, hate speech, get-rich-quick schemes, or pseudoscience. Topics such as weight-loss programs, mental-health advice, political commentary, affiliate partnerships, or financial products are allowed only after leadership review to ensure truthful claims, balanced risk language, and alignment with our Christian-inspired ethics. Every endorsement must elevate our audience's well-being, disclose risks transparently, and preserve the trust that sits at the heart of our brand.
+
+### Super-Important Implementation Tips
+
+- Comprehension test: Could a smart 12-year-old abroad grasp the message?
+- Trust filter: Remove or rewrite anything that risks trust (shock without value, partisan rant, unhealthy promotion).
+- Faith references: Keep inclusive—focus on virtues.
+- Humor check: Target bad ideas, not people.
+
+## Which values or characteristics do you explicitly NOT want to represent?
+
+In all our communications and sales interactions, we explicitly reject superficiality, manipulation, and the image of the flashy, greedy salesperson. Our brand never aligns with exploitative trends or unethical offers, and our team stands out not by appearance or numbers-chasing, but by substance, authenticity, and skill that earns real trust.
+
+## Archetype & Persona
+
+Our archetype is the "Good Bad Boy"—charismatic, confident, and slightly rebellious, but with a strong ethical core and deep empathy.
+
+This persona is never a stereotype: He avoids the classic business uniform, standing out by blending casual and refined.
+
+He's the type who turns heads, not with loudness or excess, but with understated style, integrity, and an aura of "earned mystery."
+
+### Core Traits:
+
+- Authenticity above all. Never pretend or posture; always own your real self, even if it means breaking the mold.
+- Charisma rooted in competence—people sense depth and trustworthiness, not just surface charm.
+- Subtle rebellion—a willingness to challenge the status quo or break "industry rules," always with positive intent.
+- Confidence paired with empathy—can command attention, but listens deeply and never exploits.
+
+### How to embody this:
+
+- Dress in a way that feels honest to you; style is a signal, not a costume.
+- Let actions speak louder than words. Substance over show.
+- Be approachable and relatable, yet maintain an air of independence and self-respect.
+
+## Signature Style
+
+The brand's signature style is a mix of bold individuality and timeless elegance. Clothing and presentation choices are intentional, never accidental or overly trend-driven.
+
+### Wardrobe & Visual Cues:
+
+- Leather jackets, dark or monochrome color palettes, and simple but high-quality sneakers.
+- Subtle jewelry or standout accessories (e.g., distinctive glasses with a hint of color) to signal creative thinking and personal branding.
+- Classic black and white suits for formal/private occasions, but never the "off-the-rack" look.
+- Always well-groomed and put together, but never flashy or over-accessorized.
+
+### Overall Visual Impact:
+
+- The effect is mysterious but not off-putting, confident but not arrogant.
+- The appearance is designed to invite curiosity and respect, rather than distance or intimidation.
+- Every visual detail signals a blend of competence, authenticity, and thoughtful rebellion—a "bad boy with a purpose."
+
+In summary: Our brand persona is the skilled outsider who leads by example, dresses for self-expression not conformity, and uses style as a subtle amplifier for substance. This image is consistent across all personal and brand touchpoints, from video calls to public stages.
+
+## Signature Phrases
+
+- "Get Educated"
+- "Make More Money"
+- "Ask More Questions ©"
+- "Sales is a performance skill"
+- "There is always a solution for everything"
+
+## Desired Emotions
+
+### Target Feeling for the Customer/User
+
+Inspired—but not in the Instagram quote way.
+
+I want my audience to feel a grounded, almost defiant inspiration—a push to get radically honest about what they actually want, cut through every borrowed belief, and finally build the life that *fits* them, not just the image they've been sold. This isn't about becoming "successful" by someone else's metrics, or grinding yourself down to impress strangers. It's about self-respect. Agency. That click inside when you realize: I don't have to play the same game as everyone else. You should walk away feeling sharper, more awake, and more yourself—ready to act, not just think.
+
+### Supporting emotions:
+
+- Real Authority: the sense you can actually do something with what you just learned.
+- Self-trust: the confidence to take your own side, even if it's unpopular.
+- Calm defiance: feeling totally fine about being different, not chasing approval.
+- Clean energy: clear, sustainable drive—not dopamine spikes from motivational hype.
+- Trust—earned, not given for free.
+
+### No-Go Emotions (What No One Should Ever Feel):
+
+- Manipulated, pressured, or shamed for not fitting the "hustler" mold.
+- Chasing empty validation or success built on someone else's sacrifice.
+- Left out, insignificant, or unheard.
+- Feeling like another cog in someone else's machine.
+
+### Summary:
+
+You should leave every touchpoint with my brand feeling like you just got permission to reject every fake standard, and finally pursue what's actually yours. If you walk away feeling played, used, or more confused than before, then I missed my mark.
+
+## Brand Behavioral Codes
+
+Generally speaking, the AI is not allowed to answer criticism or Feedback yet it is obliged to inform me via a communication channel like Telegram.
+
+The Idea is to create an entire PR strategy which reflects content from Edward Bernays books, The Tate Brothers way to handle criticism or accusations or other PR or Propaganda material
+
+### What types of mistakes are you willing to tolerate or even celebrate in your business (and which are absolutely unacceptable)?
+
+Added clarity: We will celebrate "smart risk"—even failed experiments—as long as they are documented and the learnings are shared for team benefit. We will not accept recurring mistakes of the same type from the same person/agent. Mistakes must be unique or show an evolution in approach, not stagnation.
+
+### How should your team, partners, or AI agents handle harsh criticism—especially if it comes publicly or aggressively?
+
+Added clarity: If public criticism reveals a flaw we missed, publicly document both the fix and what will change so it won't happen again. If criticism is performative (attention-seeking), flag it, and let a second agent/team member confirm before responding—never act on trolling without a human-in-the-loop check.
+
+### What's your stance on personal attacks or drama in your community or brand channels?
+
+Added clarity: Repeat personal attackers or drama-starters are removed from channels after one warning. Document all blocks/bans and the reason, so no one is silenced for honest dissent—but consistent toxicity gets zero second chances.
+
+### If a customer or audience member points out a genuine mistake, what's the protocol for acknowledging and correcting it?
+
+Added clarity: We prioritize response time—mistake acknowledgment must occur within 24 hours, ideally in the same thread or communication channel. If a bug/error affects more than one user, notify all affected users proactively—not just the reporter.
+
+### How much directness, cursing, or confrontational style do you want your brand voice to show in tough situations?
+
+Added clarity: In direct messages or private channels, agents may "dial up" bluntness and even use strong language—if it's in service of clarity and the recipient's past responses show they value it. In public, cursing is for emphasis only, not as a filler—review each case for tone impact before posting.
+
+### When do you double down on your position versus adapt or change in response to feedback?
+
+Added clarity: If a position is challenged on moral or ethical grounds, always escalate to a leadership review before responding. If feedback exposes a risk of user harm or legal issue, err on the side of caution: pause the affected process/content until it's reviewed.
+
+### How do you want feedback (from users, customers, or team) to be structured?
+
+Added clarity: For internal feedback: require a "problem-solution" format—never accept complaints without at least one suggestion for improvement. For external feedback: categorize as Bug, Feature Request, Process Critique, or General. Each gets routed to a different agent or team, so nothing gets lost or ignored.
+
+### What are your rules for public debate, controversy, or being "called out" online?
+
+Added clarity: Major controversies are never handled solo: always involve at least one other team member/agent for message review before responding. If "called out" by someone with significant audience overlap (e.g., influencer in your niche), prioritize a response, even if only to clarify your position.
+
+### How do you balance accountability and ego?
+
+Added clarity: Every public apology or correction must include a "what we learned" and "what will change" statement—never just "sorry." If the same person/agent makes repeated apologies, schedule a review to determine if training or reassignment is needed.
+
+### If an internal or external issue escalates (e.g., brand crisis, viral backlash), who speaks, and how do they represent your brand's core values?
+
+Added clarity: Pre-assign one "voice of the brand" for each major channel (X, LinkedIn, Email, etc.), with backup coverage. In case of a true crisis, only the founder or pre-designated lead may issue the official public statement—all other agents switch to "listen and escalate" mode until given a directive.
+
+## Taboos & No-Gos
+
+### Sprachlich (Wörter/Stil)
+
+- It's a numbers game
+
+### Visuell (Farben, Motive)
+
+- neon
+- high contrast
+
+### Inhaltlich (Themen, Narrative)
+
+- politics
+- war as in news
+- mainstream media
+
+# Visual Branding
+
+## Which Logo-Variants exist and how big is the protection space?
+
+[To be defined]
+
+## Which Primary-, Secondary- and Accent colors do you use?
+
+Here are the Hex Codes:
+
+### Yellow:
+
+- #D3A25B
+- #8C6C35
+- #57401B
+- #3B2D1C
+- #17130F
+
+### Green:
+
+- #347A66
+- #22524B
+- #1B403B
+- #16322F
+- #0E1716
+
+### Blue:
+
+- #556271
+- #374757
+- #2D3641
+- #22282F
+- #181C22
+
+### Purple:
+
+- #845DA0
+- #57386C
+- #392846
+- #271D2F
+- #18121F
+
+### Red:
+
+- #AA4A44
+- #7C3737
+- #65282C
+- #3A1A21
+- #211016
+
+### High-Contrast Colors
+
+- Olive
+- Marble
+- Lavender
+- Honey Gold
+- Pomegranate
+- Olive Branch
+
+### Red/Pomegranate (vertical stack, left):
+
+- #FF4E50
+- #D72631
+- #8D1B1B
+
+### Purple/Lavender & Olive Branch (vertical stack, right):
+
+- #B4B9A7
+- #8E6DA6
+- #B497BD
+
+### Main Horizontal Palette (bottom row):
+
+- #FFC30B (Honey Gold)
+- #C0392B (Pomegranate)
+- #808000 (Olive)
+- #A3B18A (Olive Branch)
+- #B57EDC (Lavender)
+- #F4F4F4 (Marble)
+
+## Which Typography is used for Headlines and Text?
+
+### Homepage Hero:
+
+Headline: Rethink Sans
+Subheadline: Lora
+Button & Nav: Inter
+
+### Sales Page:
+
+Big claim/title: Rethink Sans
+Explainer text: Inter
+Testimonials: Lora (for quote), Inter (for name)
+
+### Email Newsletter:
+
+Headline: Rethink Sans
+Body: Inter
+Quote: Lora
+
+### Instagram Post:
+
+Main statement: Rethink Sans
+Caption: Inter
+
+### PDF Guide/Ebook:
+
+Section title: Rethink Sans
+Pull quote: Lora
+Body: Inter
+
+### Course Slides:
+
+Slide title: Rethink Sans
+Bullets: Inter
+Key quote: Lora
+
+### Community Platform:
+
+Menu & chat: Inter
+Module header: Rethink Sans
+Sidebar tip or inspiration: Lora
+
+### Webinar Landing Page:
+
+Headline: Rethink Sans
+Details & CTA: Inter
+Speaker Quote: Lora
+
+## Which image style and iconography do you want to use?
+
+### 1. Baroque (Luxury + Mastery)
+
+- Usage: Use as a signifier of authority and refinement—gold filigree borders, marble textures, dark jewel-tone accents. Reserve for highlights: testimonial callouts, section headers, premium badges, or signature course frames.
+- Feel: Ornate, sophisticated, but never "rococo clutter." Baroque here means power and tradition—used with restraint.
+- Don't: Never let Baroque overwhelm. Avoid looking like a costume party or museum—one ornate accent per section max.
+
+### 2. Minimalism (Clarity + Focus)
+
+- Usage: Minimalism is the foundation. Every layout is clean, with decisive negative space and a rigid, magazine-inspired grid.
+- Feel: Modern, direct, and authoritative. Minimalism amplifies the importance of every visual and message.
+- Don't: Don't crowd. No unnecessary gradients or visual noise.
+
+### 3. Silhouette (Signature Impact)
+
+- Usage: Use bold black or high-contrast silhouettes (human figures, hands, or key sales objects) as hero images, icons, or product visuals. Make silhouette work your "visual signature" for quick recognition and mysterious authority.
+- Feel: Striking, mysterious, but never generic stock. The silhouette should feel like "the skilled outsider"—not anonymous.
+- Don't: Don't overcomplicate or add cartoon outlines.
+
+### 4. Cinematic (Emotional Pull + Modern Story)
+
+- Usage: Every image or video should be color-graded for cinematic depth (rich, moody, but not washed out), with strong shadow/light play and occasional film grain or vignette.
+- Feel: Feels like a movie still, not a YouTube thumbnail. The mood is ambitious, dramatic, and invites curiosity.
+- Don't: Avoid pastel, overexposed, or artificial-looking imagery.
+
+### 5. Grunge (Realness + Rebellion)
+
+- Usage: Add tactile overlays—subtle paper grain, analog textures, or edge wear. Use on section backgrounds, behind quotes, or as overlays on social posts and course covers.
+- Feel: Lived-in, rebellious, but never messy. Grunge signals you're not here to "play it safe."
+- Don't: Never overpower main content or create a "dirty" appearance.
+
+### 6. Editorial (Structure + Authority)
+
+- Usage: Use a strong, modern editorial grid, bold headlines (Inter, Lora, Rethink Sans), pull quotes, and sharp section breaks.
+- Feel: Premium magazine, not SaaS blog. Each page should feel curated, purposeful, and instantly trustworthy.
+- Don't: Don't use random or overused fonts. No generic layouts.
+
+### 7. Dark Academia/Dark Bohemian (Depth + Thought)
+
+- Usage: For occasional accents: moody backgrounds, secondary color fields, "study vibe" elements.
+- Feel: Intellectual, thoughtful, slightly mysterious.
+- Don't: Don't go full "Harry Potter." Subtle nods only.
+
+### Iconography
+
+- Style: Minimalist, geometric, and flat by default—occasional Baroque motifs for achievement badges or key transitions.
+- Don't: No neon, pastel, or stock icons.
+
+### Photography & Video
+
+- Direction: Editorial and cinematic only—never "influencer" or "stock coach." Prefer images with real character: scars, intensity, body language.
+- Signature Looks: Bold silhouettes against dramatic backdrops; luxury locations (old wood, leather, marble); action shots (writing, presenting, coaching).
+- Do: Show process, not just outcomes; feature real people or high-quality AI avatars with edge and substance.
+
+### Applications & Touchpoints
+
+- Website: Hero sections use silhouette/Baroque combo. Editorial grid for all content. Section dividers in marble/grunge with gold accents.
+- Social Media: Every post must be instantly recognizable. Use bold silhouettes, cinematic grading, and occasional pull-quote overlays in editorial font.
+- Course Content/Skool: Cover images and banners use hero silhouettes, dramatic color, and subtle grunge. Use signature gold or pomegranate accents for premium content.
+- Email/Newsletter: Minimal grid, one bold image, and a strong editorial headline.
+
+### Do's & Don'ts (Brand-Specific)
+
+### Do:
+
+- Balance edge and elegance—"good bad boy" in visual form.
+- Lead with clarity and substance, not flash.
+- Ensure every visual communicates trust and authority.
+
+### Don't:
+
+- Never look "mainstream guru" or SaaS generic.
+- No neon, no cliché stock, no messy grunge.
+- Never use visuals that undermine the feeling of mastery or trust.
+
+### References & Moodboards
+
+- Modern editorial covers (Vogue, GQ) with a twist.
+- Caravaggio lighting for drama.
+- Nike hero shots—but more mysterious, less overtly commercial.
+- Peer-group club visuals: think "private members' club," not mass market.
+- Subtle nods to Dark Academia and Bohemian for intellectual, aspirational cues.
+
+### End Result
+
+Every AMQ brand visual—across every phase of the customer journey—should signal:
+
+- "This is a peer-group for authentic, ambitious, and skilled outsiders."
+- "We combine classic mastery and modern edge—always with integrity and clarity."
+- "You won't find hype, gimmicks, or empty promises here—only authority, trust, and next-level sales thinking."
+
+## No-Gos (Forbidden Visuals, Styles, Colors, Fonts, Image Worlds)
+
+The AMQ brand visual identity is strictly curated—nothing should step outside the provided visual set. To protect clarity, authority, and recognition, the following are explicitly not allowed in any design, media, or communication:
+
+### Colors
+
+- No neon or overly bright colors (e.g., neon green, hot pink, highlighter yellow)
+- No pastel, candy, or "Instagram influencer" palettes
+- No rainbow gradients, multi-color splashes, or playful/uncontrolled color mixing
+
+### Styles
+
+- No mainstream "guru," SaaS, or generic business-coach aesthetics
+- No childish, cartoonish, or comic-book styles
+- No "motivational poster" clichés (stock images with sunsets, handshakes, etc.)
+- No maximalist, cluttered, or over-designed layouts
+- No washed-out or low-contrast visuals
+
+### Fonts
+
+- No generic system fonts (Arial, Times New Roman, Comic Sans, etc.)
+- No handwriting or script fonts (unless pre-approved for specific editorial accent)
+- No fake-gothic or overdone blackletter for body text or headlines
+
+### Image Worlds
+
+- No obvious stock photography (e.g., fake-smiling people, business team stock images)
+- No photos that feel artificial, staged, or inauthentic
+- No images that undermine the "skilled outsider," confident, club-like, or "good bad boy" vibe
+- No "influencer" imagery (e.g., excessive flexing, party scenes, hype poses)
+
+### General
+
+- Never use visuals, motifs, or elements that contradict the values of trust, authority, authenticity, and quiet boldness
+- Never crowd layouts or let accents overpower the minimalist foundation
+- Do not reference or imitate mainstream political, war, or news media visual tropes
+
+### Summary:
+
+- The brand's visual boundaries are intentional and narrow.
+- Only use colors, motifs, layouts, and image worlds defined in the core visual set.
+- When in doubt: If it doesn't reinforce mastery, subtle rebellion, and club-level trust, it's a no-go.
+
+## Accessibility Standards:
+
+All AMQ brand assets and digital products are designed and maintained to the highest accessibility standards.
+
+This means we rigorously adhere to and often exceed WCAG 2.1 AA guidelines, ensuring high color contrast, clear and legible typography, and fully accessible keyboard navigation.
+
+Every image and icon includes meaningful alt text, while no information is communicated by color alone—labels and icons always reinforce meaning.
+
+Interactive elements feature visible focus indicators, and our content is structured with semantic HTML for screen reader compatibility.
+
+We routinely test with both automated and manual methods, continually improving based on feedback and best practices.
+
+Accessibility isn't an afterthought at AMQ—it's a non-negotiable foundation, making our brand and community truly open and usable for everyone.
+
+# Offer & Service
+
+## What are the main products/- and services?
+
+### Skool Community
+
+The core product I have is my community on the platform Skool. This community contains 49 course videos that are specifically designed to teach the student how to, professionally execute a sales call. Yet the knowledge contained in the videos is not specified on the sales "call" but any type of sales situation. Including personal 1o1 sales situations as well as non-monetary sales or closing in the dm's. The Content is specifically written in a way that it fits the other types of sales, yet the knowledge is basically interdisciplinary usable.
+
+The general structure is as follows, 5 Modules with multiple chapters and parts within the chapters. In the first module, Introduction, for instance, is a chapter called preparation where is explain how to properly prepare for a sales call. This consist of multiple parts that revolve around this one specific topic.
+
+Beside the 49 courses there are additional intros and outros for every module, they are meant to have an emotionally engaging effect, meant to motivate the viewer to go deep into the module.
+
+### The Modules are as followed:
+
+- Module 01 - Introduction
+- Module 02 - Needs Analysis
+- Module 03 - Offer Presentation
+- Module 04 - Objection Handling
+- Module 05 - Closing
+
+Additionally to the courses, there are 5 E-Books written for every Module to have further resources to read from.
+
+I also added 1 booklet about typology where I provide multiple day to day examples on how to spot the different typology types (as the disc modell says).
+
+The information given represent phase 01 of my the coaching. It is the content currently stored in the skool community and just the beginning of what will be in there.
+
+It is important to note, that all the course videos where made through the AI Avatar Video creation tool named: HeyGen.
+
+This tool critically helped me to create the Videos faster.
+
+The AI Avatar is of myself and looks very similar to me.
+
+Due to my future ambitions to add a lot of, sales related, AI Content to the Skool, I'm very transparent about the use of this software and I am clarifying this directly at the beginning of the skool. It is my ambition to motivate students further to use AI because in my believe it will be a fundamental part of our future.
+
+### Further Skool-Phases:
+
+In Phase 02: I will add comprehensive AI Automation Tutorials for AI Workflows on n8n which help people to sell more.
+
+In Phase 03: I will add a further deep dive into communication, adding more sales styles, example strategies, psychology knowledge, neurology as well as verbal/- and non-verbal communication.
+
+### What is Skool?
+
+Skool is an all-in-one community platform designed for creators, coaches, and entrepreneurs to effortlessly manage and grow engaged online communities. It seamlessly integrates community discussions, course content, event scheduling, and direct messaging into one streamlined, gamified experience. With a simple pricing structure, robust engagement tools like leaderboards, SEO-friendly public content, and built-in monetization via Stripe and PayPal, Skool offers everything needed to nurture, educate, and monetize your audience without juggling multiple platforms.
+
+### Further Projects.
+
+- Private Community (Future)
+- Enterprise Clients (Future)
+- Enterprise Presentations (Future)
+- Input Courses (Get Information)
+- Output Courses (Post Content/Build Stuff)
+- Improving Processes
+
+## Value obtained in the customer journey
+
+### Phase 01 | First Touchpoint & Awareness
+
+The first phase of the journey takes place entirely on public social media platforms, including YouTube Shorts, TikTok, Instagram Reels, X, and similar video and live streaming sites. Here, viewers receive a wide range of different types of value and content. The formats used have three core motivations:
+
+#### Educate
+
+All educational content in this phase is about providing immediately actionable tips and frameworks from my own coaching experience. I post practical video examples—such as roleplays of sales calls, breakdowns of communication strategies, and objection-handling scenarios—so even non-clients can take away direct value. The educational focus includes guides and checklists that show how these skills apply in both monetary and non-monetary situations. Everything is stripped of filler, made so the audience can put the advice into action right away.
+
+#### Entertain
+
+The entertaining content is intentionally more personal and artistic. I share stories from my life, day-to-day routines, and the lifestyle my business creates—like gym sessions, travels, or time spent in nature or luxury. These posts often take the form of visually appealing, highly-edited shorts set to music, aiming to build emotional connection, brand desire, and audience engagement. Entertainment here is strategic: it strengthens the bond and makes the brand feel human.
+
+#### To Inspire
+
+Inspiring content motivates the audience to take meaningful action or simply make the next move in their journey. I publish transformation stories—my own, and with permission, those from clients or public figures—to give concrete proof of what's possible. Milestones, key lessons, and examples of overcoming challenges are shared to show that progress and growth are real and accessible. Inspiration is always tied to genuine outcomes, not vague encouragement.
+
+### Core topics that are always covered:
+
+- Every reason why someone should buy—broken down and communicated across formats.
+- Every reason why someone should learn—practical examples of why these skills matter in real life.
+- Every objection people have—handled publicly, often as video responses or post threads, so the whole audience can see the logic.
+- Every example for why sales and communication skills are crucial—not just in business, but in daily life.
+
+Value in Phase 01 is always concrete, direct, and immediately usable. No vague promises or fluff—only real value, shown in practice, not just theory.
+
+### Phase 02 | Consideration & Commitment
+
+The second phase happens on private, invite-only platforms: Telegram, WhatsApp, or through my Email Newsletter. This step is only entered if a prospect clicks the link in my public content or follows my call to join the group or list. It is not an automated onboarding—people decide when they're ready to go deeper.
+
+Here, the value increases in specificity, depth, and direct support.
+
+Content is still split into the three main categories, but the delivery is more personal, comprehensive, and actionable.
+
+#### Educate
+
+Educational value in this phase gets more in-depth and specific. Members receive exclusive access to comprehensive guides, step-by-step tutorials, and resource packs—such as advanced scripts and sales strategies—directly related to real business cases or user questions. The educational content here focuses on providing members with all the tools and knowledge they need to increase business quality, skill, and competence in practical, immediate ways.
+
+#### Entertain
+
+Entertainment in this phase becomes more intimate and community-driven. I share private updates, personal stories, and voice notes that aren't available publicly. Members participate in group challenges, polls, and interactive content designed to foster a sense of belonging and keep engagement high. Humor and curated content are tailored to fit the unique culture of the group, making the environment enjoyable and dynamic.
+
+#### Inspire
+
+The inspiration offered in this phase is deeper and ongoing. I publish extended stories, interviews, and "wins of the week" from myself and active members, giving a fuller picture of transformation over time. Members are supported with regular motivational prompts, direct calls to action, and ongoing accountability check-ins. The goal is to keep everyone's momentum high, celebrate progress, and help move every member toward their next milestone.
+
+### Technical and AI Implementation
+
+- All content in Phase 02 is categorized by type, topic, outcome, and user interaction for structured AI recall and analysis.
+- Every story, resource, and discussion is indexed, so the AI can pull relevant examples, answer questions, and guide new members to what matters most.
+- Engagement is tracked so that high-performing content and common challenges are surfaced automatically for future improvement.
+
+Summary: Both phases are designed to give the prospect real, practical value at every step—publicly at first for reach, then privately for depth and commitment. All content is structured, tagged, and delivered in a way that AI agents can understand, retrieve, and use for recommendations, coaching, and content generation. The entire process is transparent, concrete, and focused on real outcomes.
+
+### Generally core topics that should be implemented are
+
+- Every Reason why you should buy
+- Every Reason why you should learn
+- Implement all the topics.
+- Every Objection people have
+- Every example for why the skills are important.
+
+## What's the Benefit Ladder?
+
+You get a library of Performance Communication frameworks plus plug-and-play AI agents that handle research, note-taking, and follow-ups. That toolset removes busywork and shortens sales cycles, so deals close faster with less effort. It lets you lead every conversation with confident empathy—no pressure scripts, just clear guidance the buyer can trust. The result is predictable, trust-driven revenue and hours freed for higher-impact work or personal time.
+
+## What is the pricing model respectively the monetary system?
+
+The Primary Pricing will lie in $47 Dollars/mrr for the Skool Community Entry, increasing by $10 with the hundred.
+
+### Meaning:
+
+- 0-99 Members - 47$/mrr
+- 100-199 Members - 57$/mrr
+- 200-299 Members - 67$/mrr
+- 300-399 Members 77$/mrr
+
+And so on, the price increase will stop at $147/mrr until the phase 2 entries, which is about the AI content. Then it'll automatically jump to $247/mrr and will stay there.
+
+Every Member will only pay the price they've got when they entered. So the members payment will lock in forever.
+
+Yet if a member gains a certain Skool Level it'll gain access free forever.
+
+[Pricing for personal coachings or enterprise solutions will be added in the future]
+
+## How do will the product develop in the next 24 Month (23.06.2025)?
+
+AMQ will develop very strong. Currently there is a 50 Video coaching in the AMQ Skool. The future will include at least 100-200 Video's more about communication, psychology and sales.
+
+I will also add an entire, very comprehensive section about creating AI Agents and Automations. This will include the fine-tuning of AI Models, the creation of memories and databases. As well as general logic and mathematical equations for simplicity and easier understanding. At the end this part will hold comprehensive looks onto different tools and terminologies from the IT world.
+
+### Short-Term Development (July-October 2025: Strengthen Foundation)
+
+Build the core to lock in early wins.
+
+- Add 50 videos to the current 49. Cover advanced communication, psychology, and sales structures. Equip members for real scenarios: Calls, DMs, negotiations. Precision turns listening into trusted guidance.
+- Roll out transparent AI features. Use HeyGen avatars in new content. Show how tech builds skills without replacing human insight.
+- Automate 90% of operations with n8n agents. Handle social engagement, research, follow-ups. Free time for client focus and live interactions.
+- Hit 100 members. Generate steady revenue. Make AMQ the only resource needed—clear, applicable, no external gaps.
+
+These moves connect: Content draws users, automation scales delivery, transparency earns trust. Result: Members apply skills immediately, validating the model.
+
+### Mid-Term Development (November 2025-June 2026: Scale Depth)
+
+Expand reach while deepening tools.
+
+- Integrate 100-200 videos. Dive into rhetoric, neurology, non-verbal signals, behavioral science. Teach frameworks that adapt to any context—no rigid scripts.
+- Launch Phase 2 AI section. Include tutorials on agents, automations, model tuning, databases. Add logical equations for simplicity. Cover IT terms step by step.
+- Grow to 2,000 members. Aim for €250,000 monthly revenue. Use price steps: $47 entry, rise $10 per 100 members, cap at $147. Personalize upsells via AI. Boost community tools for practice and wins.
+- Address doubts in content. Show sales as ethical skill-building. Reject tricks for real empathy.
+
+This phase shifts effort to impact: Videos provide depth, AI turns knowledge into workflows, growth funds further tools. Members gain agency—they build businesses, not just close deals.
+
+### Long-Term Development (July 2026-June 2027: Establish Legacy)
+
+Create a self-running ecosystem.
+
+- Evolve into EduCore platform. Start with AMQ's rhetoric and AI as base skills—learn how to learn faster. Expand to 200+ videos on full business agency. Enable independent launches.
+- Build replicable AI systems in n8n. JSON exports for niches. Input from experts in marketing, operations, legal. Automate all but core elements: Long videos, podcasts, coaching.
+- Form 100-person company. 70% in outreach. Incubate members as partners—enter "camps," build momentum in psychology and AI, exit ready for joint ventures.
+- Scale to enterprise. Offer frameworks only—no done-for-you. Maintain focus: Skills first, no politics, no hype. Value lasts through understanding, not volume.
+
+The chain holds: Foundation tests, scale amplifies, legacy cycles. Base validates demand, mid multiplies efficiency, long forges partners. AMQ rejects quick wins—embrace this path, and mastery becomes inevitable.
+
+Content + Automation = Enduring Growth.
+
+## Which services and what product is specifically not included?
+
+- No done for you services (DFY).
+- I will never give away simple scripts.
+- I will never teach numbers game techniques.
+- AMQ does not teach techniques and strategies, AMQ teaches frameworks and the entire skills.
+- AMQ is not about making money, it is about building a skill and therefore make money a byproduct of action.
+
+## Which core processes and technologies make AMQ unique?
+
+[To be defined in future iterations]
+
+# Future Elaborations and Ideas
+
+- Principles for Love and Relationships
+- Principles for Life
+- We are all narcissists.
+- Enter their universe.
+- Speak their language.
+- Understand their subjective reality.
+- Performance Communication is sales.
+- What P.C. is not C for the sake of C

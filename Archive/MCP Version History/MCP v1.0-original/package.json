@@ -1,0 +1,19 @@
+{
+  "name": "mcp-redis-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "redis", "claude"],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP server for Redis integration with Claude Desktop",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "dotenv": "^17.2.1",
+    "redis": "^5.8.2"
+  }
+}
