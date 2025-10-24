@@ -1,0 +1,166 @@
+# Cursor Rules for Text-to-Redis Transformation System
+
+## System Context
+
+You are working with a production-ready transformation system that converts structured markdown documents into hierarchical Redis databases. This system supports both AI-assisted and automated Python approaches.
+
+## Core Principles
+
+1. **Text Preservation:** NEVER summarize or truncate text content
+2. **Hierarchy Integrity:** Always maintain parent-child relationships
+3. **Key Consistency:** Follow established naming conventions
+4. **Validation:** Always validate before Redis upload
+
+## Document Structure Rules
+
+### YAML Front Matter (Required)
+```yaml
+---
+title: "Document Title"
+author: "Author Name"
+created: "YYYY-MM-DD"
+category: "optional"
+tags: ["optional"]
+---
+```
+
+### Hierarchy Levels
+- `#` → Chapter (`ch:`)
+- `##` → Paragraph (`para:`)
+- `###` → Subparagraph (`subpara:`)
+- Text → Chunk (`chunk:`)
+
+## Redis Schema Rules
+
+### Key Naming
+- Format: `prefix:identifier:number`
+- Lowercase, underscore-separated
+- 3-digit zero-padded numbers: `:001`, `:002`
+- No spaces, special characters, or capitals
+
+### Required Fields
+- `type`: document|chapter|paragraph|subparagraph|chunk
+- `key`: unique Redis key
+- `text`: COMPLETE original text
+- `parent`: parent key (null for document)
+- `sequence_in_parent`: position among siblings
+
+### Set Naming
+- Always use `:children` (not `:chapters`, `:paragraphs`)
+- Always use `:sequence` for reading order
+
+## Python Toolkit Guidelines
+
+### When modifying Python scripts:
+- Maintain error handling with try/except
+- Use subprocess with timeout (5 seconds default)
+- Always escape JSON properly
+- Provide progress feedback
+- Follow existing code structure
+
+### Testing Requirements
+- Test with small document first
+- Verify Redis connection before bulk operations
+- Check for existing keys to avoid collisions
+- Validate parent-child relationships
+
+## AI Prompts Guidelines
+
+### When modifying prompts:
+- Keep German language for German prompts
+- Emphasize text preservation rules
+- Include validation steps
+- Provide clear examples
+- Maintain schema consistency
+
+## Code Quality Standards
+
+### Python
+- Follow PEP 8 style guide
+- Use type hints where applicable
+- Add docstrings to functions
+- Handle errors gracefully
+- Log important operations
+
+### Markdown
+- Use proper heading hierarchy
+- Include YAML front matter
+- Maintain consistent formatting
+- Test with transformation system
+
+## Common Patterns
+
+### Document Upload
+```python
+# Always validate YAML first
+# Generate unique document key
+# Create children sets
+# Create sequence sets
+```
+
+### Hierarchy Processing
+```python
+# Track parent stack
+# Count siblings for sequence_in_parent
+# Build parent-child relationships
+# Maintain reading order
+```
+
+### Error Handling
+```python
+try:
+    result = execute_redis_command(cmd, timeout=5)
+except subprocess.TimeoutExpired:
+    log_error("Redis timeout")
+except subprocess.CalledProcessError as e:
+    log_error(f"Redis error: {e.stderr}")
+```
+
+## Testing Checklist
+
+Before committing changes:
+- [ ] Python scripts run without errors
+- [ ] AI prompts generate valid Redis commands
+- [ ] Keys follow naming conventions
+- [ ] Text preservation verified
+- [ ] Parent-child relationships correct
+- [ ] Sets properly named (`:children`, `:sequence`)
+- [ ] Documentation updated
+- [ ] Examples still work
+
+## Performance Considerations
+
+- Batch Redis operations when possible
+- Use connection pooling for large uploads
+- Adjust chunk size for document size
+- Monitor memory usage for large documents
+- Consider streaming for 200+ page documents
+
+## Security
+
+- Never commit Redis credentials
+- Use environment variables for sensitive data
+- Validate all user input
+- Sanitize file paths
+- Use parameterized commands
+
+## Documentation Standards
+
+- Keep README.md updated
+- Add examples for new features
+- Document breaking changes
+- Update COMPARISON_ANALYSIS.md if needed
+- Include usage examples
+
+## Git Workflow
+
+- Use meaningful commit messages
+- Reference issues in commits
+- Keep commits focused and atomic
+- Update version numbers appropriately
+- Tag releases properly
+
+---
+
+**Remember:** This is a production system. Quality and reliability are paramount.
+
