@@ -13,7 +13,6 @@ Choose your approach based on your needs:
 ### ⚡ **Fast Track: Automated Python Pipeline**
 ```bash
 python3 python-toolkit/transform_markdown.py \
-  --redis-cli /path/to/redis-cli \
   --redis-url "redis://default:password@host:port" \
   --markdown your_document.md
 ```
@@ -111,7 +110,6 @@ User → AI Prompt → Generated Commands → Manual Redis Upload
 
 - **Redis 6.0+** with RedisJSON module
 - **Python 3.7+** (for automation approach)
-- **redis-cli** (for automation approach)
 - **Claude Code/Cursor** (for AI approach)
 
 ### Setup
@@ -121,14 +119,11 @@ User → AI Prompt → Generated Commands → Manual Redis Upload
 git clone https://github.com/OskarSch24/text-to-redis-transformation-system.git
 cd text-to-redis-transformation-system
 
+# Install dependencies
+pip install redis
+
 # Verify Python (if using automation)
 python3 --version
-
-# Verify redis-cli (if using automation)
-redis-cli --version
-
-# Test Redis connection
-redis-cli -u redis://your-connection-string ping
 ```
 
 ---
@@ -140,13 +135,11 @@ redis-cli -u redis://your-connection-string ping
 ```bash
 # Basic usage
 python3 python-toolkit/transform_markdown.py \
-  --redis-cli ./redis-cli \
   --redis-url "redis://default:pass@host:15654" \
   --markdown Documents/investment_guide.md
 
 # With custom naming
 python3 python-toolkit/transform_markdown.py \
-  --redis-cli ./redis-cli \
   --redis-url "redis://default:pass@host:15654" \
   --markdown brand_brief.md \
   --doc-name "Brand Strategy 2024" \
@@ -154,7 +147,6 @@ python3 python-toolkit/transform_markdown.py \
 
 # Skip if exists
 python3 python-toolkit/transform_markdown.py \
-  --redis-cli ./redis-cli \
   --redis-url "redis://default:pass@host:15654" \
   --markdown report.md \
   --skip-existing
@@ -247,6 +239,7 @@ Each element stored in Redis follows this schema:
   "key": "unique_redis_key",
   "text": "complete_original_text",
   "parent": "parent_key",
+  "children": ["child_key_1", "child_key_2"],  // V2: Recursive fetch support
   "sequence_in_parent": 1,
   "level": "document|chapter|paragraph|subparagraph|chunk",
   "title": "Element Title",
@@ -258,13 +251,24 @@ Each element stored in Redis follows this schema:
 
 ### Parent-Child Relationships
 
-```redis
-# Children sets (direct descendants)
-SADD doc:example:001:children ch:chapter1:001 ch:chapter2:002
+V2 Architecture uses direct JSON lists for fast recursive retrieval:
 
-# Sequence sets (reading order)
-SADD doc:example:001:sequence doc:example:001 ch:chapter1:001 para:intro:001 chunk:text1:001
+```json
+// Parent Object
+{
+  "key": "ch:chapter1:001",
+  "children": ["para:intro:001", "para:details:002"]
+}
 ```
+
+Legacy sets (`:children` and `:sequence`) are still created for backward compatibility.
+
+### Indices (V2)
+
+The system automatically maintains two specialized indices:
+
+1. **Path Index (`index:path`)**: Full hierarchy tree (Document → ... → Chunk) for navigation.
+2. **Content Index (`index:content`)**: Aggregated summaries up to Paragraph level for efficient AI context selection.
 
 ### Navigation Example
 

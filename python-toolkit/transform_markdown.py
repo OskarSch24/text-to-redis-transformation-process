@@ -121,6 +121,19 @@ def transform_markdown(markdown_file, redis_cli_path, redis_url, doc_name=None, 
         print("Failed to upload chunks. Exiting.")
         return False
 
+    # Step 6: Generate Indices
+    print("\n📊 Step 6: Generating Indices...")
+    cmd = [
+        sys.executable,
+        os.path.join(script_dir, 'generate_indices.py'),
+        '--redis-cli', redis_cli_path,
+        '--redis-url', redis_url
+    ]
+
+    if not run_command(cmd):
+        print("Failed to generate indices. Exiting.")
+        return False
+
     # Success summary
     print("\n" + "="*60)
     print("✅ TRANSFORMATION COMPLETE!")

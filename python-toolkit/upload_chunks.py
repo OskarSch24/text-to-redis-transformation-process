@@ -56,8 +56,8 @@ def process_chunks(markdown_file, redis_cli_path, redis_url, doc_key):
             subpara_key_part = clean_text_for_key(subpara_text)
             current_subparagraph = f"subpara:{subpara_key_part}:{subpara_num:03d}"
 
-        # Process chunk (any non-header line)
-        elif not line_stripped.startswith('#'):
+        # Process chunk (any non-header line OR level 4+ headers)
+        elif not line_stripped.startswith('#') or line_stripped.startswith('####'):
             chunk_counter += 1
 
             # Determine parent based on hierarchy
@@ -70,13 +70,20 @@ def process_chunks(markdown_file, redis_cli_path, redis_url, doc_key):
             else:
                 parent = doc_key
 
+            # Special handling for #### headers (flatten to bold text)
+            text_content = line_stripped
+            if text_content.startswith('####'):
+                # Convert "#### Title" to "**Title**"
+                clean_header = text_content.lstrip('#').strip()
+                text_content = f"**{clean_header}**"
+
             # Generate chunk key
-            chunk_key_part = clean_text_for_key(line_stripped, max_words=3)
+            chunk_key_part = clean_text_for_key(text_content, max_words=3)
             chunk_key = f"chunk:{chunk_key_part}:{chunk_counter:03d}"
 
             chunks.append({
                 'key': chunk_key,
-                'text': line_stripped,
+                'text': text_content,
                 'parent': parent,
                 'sequence': chunk_counter,
                 'line_num': line_num
@@ -100,8 +107,10 @@ def process_chunks(markdown_file, redis_cli_path, redis_url, doc_key):
         success = uploader.upload_to_redis(chunk['key'], chunk_data)
 
         if success:
-            # Add to parent's children set
+            # Add to parent's children set (Legacy)
             uploader.add_to_set(chunk['parent'], chunk['key'])
+            # Add to parent's children list (V2)
+            uploader.add_child_to_parent_list(chunk['parent'], chunk['key'])
 
         # Progress update
         if i % 50 == 0:

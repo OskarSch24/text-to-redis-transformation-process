@@ -63,14 +63,17 @@ def process_subparagraphs(markdown_file, redis_cli_path, redis_url, doc_key):
             "text": subpara['text'],
             "title": subpara['text'],
             "parent": subpara['parent'],
-            "sequence_in_parent": subpara['sequence']
+            "sequence_in_parent": subpara['sequence'],
+            "children": []  # Initialize for V2 recursive fetch
         }
 
         success = uploader.upload_to_redis(subpara['key'], subpara_data)
 
         if success:
-            # Add to parent's children set
+            # Add to parent's children set (Legacy)
             uploader.add_to_set(subpara['parent'], subpara['key'])
+            # Add to parent's children list (V2)
+            uploader.add_child_to_parent_list(subpara['parent'], subpara['key'])
 
         # Progress update
         if i % 10 == 0:

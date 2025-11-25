@@ -1,32 +1,36 @@
 #!/usr/bin/env python3
 """
 Redis Utilities - Common functions for all upload scripts
+Refactored to use redis-py instead of redis-cli subprocess calls.
 """
 import json
-import subprocess
 import re
+import redis
 from datetime import datetime
 
 class RedisUploader:
     """Base class for Redis upload operations"""
 
     def __init__(self, redis_cli_path, redis_url):
-        self.redis_cli_path = redis_cli_path
+        # redis_cli_path is kept for backward compatibility with existing script arguments
         self.redis_url = redis_url
         self.success_count = 0
         self.failed_count = 0
+        
+        try:
+            self.r = redis.from_url(redis_url, decode_responses=True)
+            # Test connection
+            self.r.ping()
+        except Exception as e:
+            print(f"❌ Failed to connect to Redis: {e}")
+            raise
 
     def escape_json_string(self, text):
-        """Properly escape text for JSON"""
+        """Properly escape text for JSON (Not needed when using redis-py/json.dumps)"""
+        # Kept if legacy scripts call it, but generally redis-py handles object serialization
         if not text:
             return text
-        text = str(text)
-        text = text.replace('\\', '\\\\')
-        text = text.replace('"', '\\"')
-        text = text.replace('\n', '\\n')
-        text = text.replace('\r', '\\r')
-        text = text.replace('\t', '\\t')
-        return text
+        return str(text)
 
     def generate_key(self, text, prefix, counter, max_length=50):
         """Generate a Redis key based on text content"""
@@ -41,67 +45,46 @@ class RedisUploader:
         return f"{prefix}:{key_part}:{counter:03d}"
 
     def upload_to_redis(self, key, data_dict):
-        """Upload a single item to Redis"""
+        """Upload a single item to Redis using JSON.SET"""
         # Add timestamp if not present
         if 'created' not in data_dict:
             data_dict['created'] = datetime.now().strftime('%Y-%m-%d')
         if 'updated' not in data_dict:
             data_dict['updated'] = datetime.now().strftime('%Y-%m-%d')
 
-        # Convert to JSON string
-        json_str = json.dumps(data_dict)
-
-        # Create Redis command
-        cmd = [
-            self.redis_cli_path,
-            '-u', self.redis_url,
-            'JSON.SET', key, '$', json_str
-        ]
-
         try:
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=5)
-            if result.returncode == 0:
-                print(f"✓ Uploaded: {key[:60]}...")
-                self.success_count += 1
-                return True
-            else:
-                print(f"✗ Failed: {key[:60]}... - {result.stderr.strip()}")
-                self.failed_count += 1
-                return False
-        except subprocess.TimeoutExpired:
-            print(f"✗ Timeout uploading {key}")
-            self.failed_count += 1
-            return False
+            # Use redis-py JSON module
+            self.r.json().set(key, '$', data_dict)
+            print(f"✓ Uploaded: {key[:60]}...")
+            self.success_count += 1
+            return True
         except Exception as e:
             print(f"✗ Error uploading {key}: {e}")
             self.failed_count += 1
             return False
 
     def add_to_set(self, parent_key, child_key):
-        """Add child to parent's children set"""
-        cmd = [
-            self.redis_cli_path,
-            '-u', self.redis_url,
-            'SADD', f"{parent_key}:children", child_key
-        ]
-
+        """Add child to parent's children set (Legacy)"""
         try:
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=5)
-            return result.returncode == 0
-        except:
+            self.r.sadd(f"{parent_key}:children", child_key)
+            return True
+        except Exception:
+            return False
+
+    def add_child_to_parent_list(self, parent_key, child_key):
+        """Add child key to parent's 'children' JSON array (V2 Architecture)"""
+        try:
+            # Append to the 'children' array at root
+            self.r.json().arrappend(parent_key, '$.children', child_key)
+            return True
+        except Exception:
+            # Fail silently if key doesn't exist or children is not an array
             return False
 
     def check_exists(self, key):
         """Check if a key exists in Redis"""
-        cmd = [
-            self.redis_cli_path,
-            '-u', self.redis_url,
-            'EXISTS', key
-        ]
-
         try:
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=5)
-            return result.stdout.strip() == "1"
+            return self.r.exists(key) > 0
         except:
             return False
 
@@ -111,7 +94,9 @@ class RedisUploader:
         print(f"{item_type} Upload Complete!")
         print(f"Successfully uploaded: {self.success_count}")
         print(f"Failed uploads: {self.failed_count}")
-        print(f"Success rate: {self.success_count/(self.success_count + self.failed_count)*100:.1f}%")
+        total = self.success_count + self.failed_count
+        if total > 0:
+            print(f"Success rate: {self.success_count/total*100:.1f}%")
         print("="*50)
 
 def parse_yaml_frontmatter(lines):

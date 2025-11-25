@@ -52,14 +52,17 @@ def process_chapters(markdown_file, redis_cli_path, redis_url, doc_key):
             "text": f"# {chapter['text']}",
             "title": chapter['text'],
             "parent": chapter['parent'],
-            "sequence_in_parent": chapter['sequence']
+            "sequence_in_parent": chapter['sequence'],
+            "children": []  # Initialize for V2 recursive fetch
         }
 
         success = uploader.upload_to_redis(chapter['key'], chapter_data)
 
         if success:
-            # Add to parent's children set
+            # Add to parent's children set (Legacy)
             uploader.add_to_set(chapter['parent'], chapter['key'])
+            # Add to parent's children list (V2)
+            uploader.add_child_to_parent_list(chapter['parent'], chapter['key'])
 
     uploader.print_summary("Chapters")
     return chapters

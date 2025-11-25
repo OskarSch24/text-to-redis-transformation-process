@@ -37,7 +37,8 @@ def upload_document(redis_cli_path, redis_url, doc_name, doc_key, metadata=None,
         "name": doc_name,
         "metadata": doc_metadata,
         "parent": None,
-        "sequence_in_parent": 1
+        "sequence_in_parent": 1,
+        "children": []  # Initialize for V2 recursive fetch
     }
 
     # Upload document

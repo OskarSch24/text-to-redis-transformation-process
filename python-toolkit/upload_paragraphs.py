@@ -60,14 +60,17 @@ def process_paragraphs(markdown_file, redis_cli_path, redis_url, doc_key):
             "text": para['text'],
             "title": para['text'],
             "parent": para['parent'],
-            "sequence_in_parent": para['sequence']
+            "sequence_in_parent": para['sequence'],
+            "children": []  # Initialize for V2 recursive fetch
         }
 
         success = uploader.upload_to_redis(para['key'], para_data)
 
         if success:
-            # Add to parent's children set
+            # Add to parent's children set (Legacy)
             uploader.add_to_set(para['parent'], para['key'])
+            # Add to parent's children list (V2)
+            uploader.add_child_to_parent_list(para['parent'], para['key'])
 
         # Progress update
         if i % 10 == 0:
