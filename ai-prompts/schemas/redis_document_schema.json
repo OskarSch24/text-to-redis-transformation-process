@@ -4,6 +4,18 @@
   "description": "JSON-Schema zur Validierung von Redis-Dokumenten aus Markdown-Transformation",
   "version": "1.1.0",
   
+  "oneOf": [
+    {
+      "$ref": "#/definitions/redis_document"
+    },
+    {
+      "$ref": "#/definitions/redis_chunk"
+    },
+    {
+      "$ref": "#/definitions/redis_set"
+    }
+  ],
+  
   "definitions": {
     "redis_key_pattern": {
       "type": "string",
@@ -33,22 +45,8 @@
       "type": "string",
       "pattern": "^[a-z]{2}$",
       "description": "ISO 639-1 Sprach-Code (z.B. 'de', 'en')"
-    }
-  },
-  
-  "oneOf": [
-    {
-      "$ref": "#/definitions/redis_document"
     },
-    {
-      "$ref": "#/definitions/redis_chunk"
-    },
-    {
-      "$ref": "#/definitions/redis_set"
-    }
-  ],
-  
-  "definitions": {
+    
     "redis_document": {
       "type": "object",
       "title": "Redis Document Object",

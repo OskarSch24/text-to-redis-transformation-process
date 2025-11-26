@@ -92,7 +92,7 @@ def process_subparagraphs(markdown_file, redis_cli_path, redis_url, doc_key):
 
 def main():
     parser = argparse.ArgumentParser(description="Upload subparagraphs from markdown to Redis")
-    parser.add_argument('--redis-cli', required=True, help="Path to redis-cli")
+    parser.add_argument('--redis-cli', default='redis-cli', help="Path to redis-cli (legacy, not used)")
     parser.add_argument('--redis-url', required=True, help="Redis connection URL")
     parser.add_argument('--markdown', required=True, help="Path to markdown file")
     parser.add_argument('--doc-key', required=True, help="Root document key")

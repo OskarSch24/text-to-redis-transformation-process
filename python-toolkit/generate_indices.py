@@ -29,11 +29,11 @@ def generate_indices(redis_cli_path, redis_url):
 
     doc_keys = sorted(filter_keys(r.keys("doc:*")))
     ch_keys = sorted(filter_keys(r.keys("ch:*")))
-    p_keys = sorted(filter_keys(r.keys("p:*")))
-    sp_keys = sorted(filter_keys(r.keys("sp:*")))
+    para_keys = sorted(filter_keys(r.keys("para:*")))
+    subpara_keys = sorted(filter_keys(r.keys("subpara:*")))
     chunk_keys = sorted(filter_keys(r.keys("chunk:*")))
 
-    total_keys = len(doc_keys) + len(ch_keys) + len(p_keys) + len(sp_keys) + len(chunk_keys)
+    total_keys = len(doc_keys) + len(ch_keys) + len(para_keys) + len(subpara_keys) + len(chunk_keys)
     print(f"  ✓ Found {total_keys} total content keys")
 
     # 2. Build Hierarchy Map
@@ -42,7 +42,7 @@ def generate_indices(redis_cli_path, redis_url):
     # Load all objects to memory (for speed, assuming DB fits in memory)
     # Optimization: Pipeline the gets
     pipeline = r.pipeline()
-    all_keys = doc_keys + ch_keys + p_keys + sp_keys + chunk_keys
+    all_keys = doc_keys + ch_keys + para_keys + subpara_keys + chunk_keys
     for k in all_keys:
         pipeline.json().get(k)
     all_data = pipeline.execute()
