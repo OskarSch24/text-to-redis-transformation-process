@@ -367,10 +367,8 @@ redis-cli -u redis://url DEL doc:example:001:sequence
 #### "Connection timeout"
 
 ```bash
-# Increase timeout in redis_utils.py
-subprocess.run(cmd, timeout=10)  # Default is 5
-
-# Or check Redis server
+# Increase timeout in redis connection
+# Check your Redis server status
 redis-cli -u redis://url PING
 ```
 

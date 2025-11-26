@@ -108,7 +108,8 @@ def process_chunks(markdown_file, redis_cli_path, redis_url, doc_key):
             "key": chunk['key'],
             "text": chunk['text'],
             "parent": chunk['parent'],
-            "sequence_in_parent": chunk['sequence']
+            "sequence_in_parent": chunk['sequence'],
+            "children": []
         }
 
         success = uploader.upload_to_redis(chunk['key'], chunk_data)
