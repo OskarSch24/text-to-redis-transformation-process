@@ -17,6 +17,7 @@ def process_chunks(markdown_file, redis_cli_path, redis_url, doc_key):
 
     chunks = []
     chunk_counter = 0
+    parent_counters = {}  # Track sequence per parent
 
     # Track current hierarchy
     current_chapter = doc_key
@@ -76,6 +77,12 @@ def process_chunks(markdown_file, redis_cli_path, redis_url, doc_key):
                 # Convert "#### Title" to "**Title**"
                 clean_header = text_content.lstrip('#').strip()
                 text_content = f"**{clean_header}**"
+            
+            # Update sequence for this parent
+            if parent not in parent_counters:
+                parent_counters[parent] = 0
+            parent_counters[parent] += 1
+            local_sequence = parent_counters[parent]
 
             # Generate chunk key
             chunk_key_part = clean_text_for_key(text_content, max_words=3)
@@ -85,7 +92,7 @@ def process_chunks(markdown_file, redis_cli_path, redis_url, doc_key):
                 'key': chunk_key,
                 'text': text_content,
                 'parent': parent,
-                'sequence': chunk_counter,
+                'sequence': local_sequence,
                 'line_num': line_num
             })
 

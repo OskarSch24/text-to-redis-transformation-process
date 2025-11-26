@@ -17,6 +17,7 @@ def process_paragraphs(markdown_file, redis_cli_path, redis_url, doc_key):
 
     paragraphs = []
     para_counter = 0
+    parent_counters = {}  # Track sequence per parent
     current_chapter = doc_key  # Default parent
     current_chapter_num = 0
 
@@ -40,11 +41,17 @@ def process_paragraphs(markdown_file, redis_cli_path, redis_url, doc_key):
             para_key_part = clean_text_for_key(para_text)
             para_key = f"para:{para_key_part}:{para_counter:03d}"
 
+            # Update sequence for this parent
+            if current_chapter not in parent_counters:
+                parent_counters[current_chapter] = 0
+            parent_counters[current_chapter] += 1
+            local_sequence = parent_counters[current_chapter]
+
             paragraphs.append({
                 'key': para_key,
                 'text': para_text,
                 'parent': current_chapter,
-                'sequence': para_counter,
+                'sequence': local_sequence,
                 'line_num': line_num
             })
 

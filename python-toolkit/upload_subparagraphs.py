@@ -17,6 +17,7 @@ def process_subparagraphs(markdown_file, redis_cli_path, redis_url, doc_key):
 
     subparagraphs = []
     subpara_counter = 0
+    parent_counters = {}  # Track sequence per parent
     para_counter = 0
     current_paragraph = None
 
@@ -43,11 +44,17 @@ def process_subparagraphs(markdown_file, redis_cli_path, redis_url, doc_key):
             # Use paragraph as parent if available, otherwise doc key
             parent_key = current_paragraph if current_paragraph else doc_key
 
+            # Update sequence for this parent
+            if parent_key not in parent_counters:
+                parent_counters[parent_key] = 0
+            parent_counters[parent_key] += 1
+            local_sequence = parent_counters[parent_key]
+
             subparagraphs.append({
                 'key': subpara_key,
                 'text': subpara_text,
                 'parent': parent_key,
-                'sequence': subpara_counter,
+                'sequence': local_sequence,
                 'line_num': line_num
             })
 
