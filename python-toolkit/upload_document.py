@@ -30,6 +30,19 @@ def upload_document(redis_cli_path, redis_url, doc_name, doc_key, metadata=None,
     if metadata:
         doc_metadata.update(metadata)
 
+    # Count total chunks in markdown file (if provided)
+    total_chunks = 0
+    if markdown_file:
+        try:
+            with open(markdown_file, 'r') as f:
+                for line in f:
+                    line_stripped = line.strip()
+                    # Count all non-header lines and #### headers as chunks
+                    if line_stripped and (not line_stripped.startswith('#') or line_stripped.startswith('####')):
+                        total_chunks += 1
+        except:
+            pass
+
     # Create document data
     doc_data = {
         "type": "document",
@@ -38,7 +51,8 @@ def upload_document(redis_cli_path, redis_url, doc_name, doc_key, metadata=None,
         "metadata": doc_metadata,
         "parent": None,
         "sequence_in_parent": 1,
-        "children": []  # Initialize for V2 recursive fetch
+        "children": [],  # Initialize for V2 recursive fetch
+        "total_chunks": total_chunks  # Required by schema
     }
 
     # Upload document
@@ -55,7 +69,7 @@ def upload_document(redis_cli_path, redis_url, doc_name, doc_key, metadata=None,
 
 def main():
     parser = argparse.ArgumentParser(description="Upload document root to Redis")
-    parser.add_argument('--redis-cli', required=True, help="Path to redis-cli")
+    parser.add_argument('--redis-cli', default='redis-cli', help="Path to redis-cli (legacy, not used)")
     parser.add_argument('--redis-url', required=True, help="Redis connection URL")
     parser.add_argument('--doc-name', required=True, help="Document name")
     parser.add_argument('--doc-key', default=None, help="Document key (default: auto-generate)")

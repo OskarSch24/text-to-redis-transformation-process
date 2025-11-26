@@ -15,7 +15,7 @@ You have **two different approaches** to the same problem - transforming structu
 |---------|----------------------------|-------------------------------------|
 | **Language** | 🇩🇪 German | 🇬🇧 English |
 | **Approach** | AI/LLM-assisted transformation | Automated Python scripts |
-| **Tool Required** | Claude Code/Cursor | Python 3.x + redis-cli |
+| **Tool Required** | Claude Code/Cursor | Python 3.x + redis-py |
 | **Execution** | Manual prompting → Copy/paste commands | One command: `python3 transform_markdown.py` |
 | **Target User** | Users comfortable with AI prompts | Developers wanting automation |
 | **Speed** | Depends on AI response time | Direct execution (~25-50 entries/sec) |
@@ -110,7 +110,7 @@ python3 transform_markdown.py \
 | Aspect | GitHub Tool | Local Toolkit |
 |--------|-------------|---------------|
 | **Type field** | Not present | Always included |
-| **Total chunks** | Calculated upfront | Not tracked |
+| **Total chunks** | Calculated upfront | Calculated upfront (V2+) |
 | **Language** | Explicitly set | Not tracked |
 | **Updated timestamp** | Not included | Included |
 

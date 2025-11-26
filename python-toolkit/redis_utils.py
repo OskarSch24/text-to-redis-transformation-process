@@ -55,9 +55,9 @@ class RedisUploader:
         try:
             # Use redis-py JSON module
             self.r.json().set(key, '$', data_dict)
-            print(f"✓ Uploaded: {key[:60]}...")
-            self.success_count += 1
-            return True
+                print(f"✓ Uploaded: {key[:60]}...")
+                self.success_count += 1
+                return True
         except Exception as e:
             print(f"✗ Error uploading {key}: {e}")
             self.failed_count += 1

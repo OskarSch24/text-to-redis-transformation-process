@@ -161,7 +161,7 @@ Example usage:
         """
     )
 
-    parser.add_argument('--redis-cli', required=True, help="Path to redis-cli executable")
+    parser.add_argument('--redis-cli', default='redis-cli', help="Path to redis-cli executable (legacy, not used)")
     parser.add_argument('--redis-url', required=True, help="Redis connection URL")
     parser.add_argument('--markdown', required=True, help="Path to markdown file to transform")
     parser.add_argument('--doc-name', help="Document name (default: derived from filename)")

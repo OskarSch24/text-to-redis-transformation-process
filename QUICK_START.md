@@ -4,14 +4,17 @@
 
 ### Option 1: Automated Python Pipeline (Recommended for Production)
 
-**Prerequisites:** Python 3.7+, redis-cli
+**Prerequisites:** Python 3.7+, redis-py library (`pip install redis`)
 
 ```bash
 # 1. Clone the repo
 git clone https://github.com/OskarSch24/text-to-redis-transformation-system.git
 cd text-to-redis-transformation-system
 
-# 2. Prepare your markdown file with YAML front matter
+# 2. Install dependencies
+pip install redis
+
+# 3. Prepare your markdown file with YAML front matter
 cat > my_document.md << 'EOF'
 ---
 title: "My First Document"
@@ -26,14 +29,13 @@ This is my first chapter.
 This is a paragraph with content.
 EOF
 
-# 3. Run transformation
+# 4. Run transformation
 python3 python-toolkit/transform_markdown.py \
-  --redis-cli redis-cli \
   --redis-url "redis://default:password@host:port" \
   --markdown my_document.md
 
-# 4. Verify in Redis
-redis-cli -u redis://default:password@host:port JSON.GET doc:my_first_document:001
+# 5. Verify in Redis (using redis-py or redis-cli if available)
+python3 -c "import redis; r = redis.from_url('redis://default:password@host:port'); print(r.json().get('doc:my_first_document:001'))"
 ```
 
 **Done!** Your document is now in Redis with full hierarchy.

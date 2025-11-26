@@ -533,13 +533,6 @@ SLOWLOG GET 10
    ```
 
 4. IMMER VALIDATION-COMMANDS BEREITSTELLEN
-``` {parent_sequence},
-  "title": "{chunk_title}",
-  "context_title": "{parent_title}",
-  "context_chapter": "{chapter_title}",
-  "context_document": "{document_title}"
-}'
-```
 
 **Beispiel Chapter:**
 ```redis
@@ -549,7 +542,8 @@ JSON.SET ch:risk_management:001 $ '{
   "level": "chapter",
   "position": 1,
   "title": "Risk Management",
-  "context_document": "Portfolio Management Strategies"
+  "context_document": "Portfolio Management Strategies",
+  "children": []
 }'
 ```
 
@@ -560,4 +554,11 @@ JSON.SET chunk:diversifikation_grundstein:001 $ '{
   "text": "Diversifikation ist der Grundstein erfolgreicher Investments und reduziert systematisch das Portfoliorisiko.",
   "level": "chunk", 
   "position": 15,
-  "sequence_in_parent":
+  "sequence_in_parent": 1,
+  "title": "Diversifikation Grundstein",
+  "context_title": "Portfolio Balance",
+  "context_chapter": "Risk Management",
+  "context_document": "Portfolio Management Strategies",
+  "children": []
+}'
+```

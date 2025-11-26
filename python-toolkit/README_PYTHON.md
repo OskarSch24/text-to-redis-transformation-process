@@ -20,7 +20,7 @@ This toolkit provides a modular approach to uploading markdown content to Redis 
 ## Installation
 
 1. Ensure Python 3.x is installed
-2. Ensure redis-cli is available
+2. Install required Python packages: `pip install redis`
 3. Clone or copy the toolkit to your project
 
 ## Quick Start
@@ -29,7 +29,6 @@ This toolkit provides a modular approach to uploading markdown content to Redis 
 
 ```bash
 python3 transform_markdown.py \
-  --redis-cli /path/to/redis-cli \
   --redis-url "redis://user:pass@host:port" \
   --markdown your_document.md
 ```
@@ -38,7 +37,6 @@ python3 transform_markdown.py \
 
 ```bash
 python3 transform_markdown.py \
-  --redis-cli ./redis-stable/src/redis-cli \
   --redis-url "redis://default:password@redis-host.com:15654" \
   --markdown Documents/brand_brief.md \
   --doc-name "Brand Brief" \
@@ -50,7 +48,6 @@ python3 transform_markdown.py \
 ### 1. Document Upload
 ```bash
 python3 upload_document.py \
-  --redis-cli /path/to/redis-cli \
   --redis-url "redis://..." \
   --doc-name "My Document" \
   --author "John Doe" \
@@ -61,7 +58,6 @@ python3 upload_document.py \
 ### 2. Chapter Upload
 ```bash
 python3 upload_chapters.py \
-  --redis-cli /path/to/redis-cli \
   --redis-url "redis://..." \
   --markdown document.md \
   --doc-key "doc:my_document:001"
@@ -70,7 +66,6 @@ python3 upload_chapters.py \
 ### 3. Paragraph Upload
 ```bash
 python3 upload_paragraphs.py \
-  --redis-cli /path/to/redis-cli \
   --redis-url "redis://..." \
   --markdown document.md \
   --doc-key "doc:my_document:001"
@@ -79,7 +74,6 @@ python3 upload_paragraphs.py \
 ### 4. Subparagraph Upload
 ```bash
 python3 upload_subparagraphs.py \
-  --redis-cli /path/to/redis-cli \
   --redis-url "redis://..." \
   --markdown document.md \
   --doc-key "doc:my_document:001"
@@ -88,7 +82,6 @@ python3 upload_subparagraphs.py \
 ### 5. Chunk Upload
 ```bash
 python3 upload_chunks.py \
-  --redis-cli /path/to/redis-cli \
   --redis-url "redis://..." \
   --markdown document.md \
   --doc-key "doc:my_document:001"
@@ -209,10 +202,7 @@ Use the `--skip-existing` flag with transform_markdown.py
 The toolkit automatically handles escaping. If issues persist, check for unusual Unicode characters.
 
 ### Connection Timeout
-Increase timeout in redis_utils.py:
-```python
-result = subprocess.run(cmd, timeout=10)  # Increase from 5 to 10
-```
+Adjust Redis connection timeout in redis_utils.py if needed (uses redis-py library).
 
 ### Missing Hierarchy Levels
 The toolkit handles documents with missing levels (e.g., no subparagraphs) gracefully.
@@ -227,4 +217,4 @@ For issues or questions, check the error logs and ensure:
 1. Redis server is accessible
 2. Authentication credentials are correct
 3. Markdown structure follows the requirements
-4. Python 3.x and redis-cli are properly installed
+4. Python 3.x and redis-py library are properly installed
