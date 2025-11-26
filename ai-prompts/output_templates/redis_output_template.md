@@ -42,15 +42,15 @@ Jede Transformation besteht aus 5 Pflicht-Sektionen in dieser Reihenfolge:
 ```
 ## Redis-Tags (nach Position sortiert)
 
-{RedisDoc: key=doc:[clean_title]:001 ; title="[Original Title]" ; author="[Author Name]" ; created="[YYYY-MM-DD]" ; total_chunks=[total_count] ; category="[category]" ; language="[lang]"}
+{RedisDoc: key=doc:[clean_title]:001 ; title="[Original Title]" ; author="[Author Name]" ; created="[YYYY-MM-DD]" ; total_chunks=[total_count] ; category="[category]" ; language="[lang]" ; children=[{child1}, {child2}]}
 
-{RedisChunk: key=ch:[clean_name]:001 ; parent=doc:[clean_title]:001 ; text="[VOLLSTÄNDIGER_ORIGINALTEXT]" ; level="chapter" ; position=1 ; title="[Chapter Title]"}
+{RedisChunk: key=ch:[clean_name]:001 ; parent=doc:[clean_title]:001 ; children=[{child1}] ; text="[VOLLSTÄNDIGER_ORIGINALTEXT]" ; level="chapter" ; position=1 ; title="[Chapter Title]"}
 
-{RedisChunk: key=para:[clean_name]:001 ; parent=ch:[clean_name]:001 ; text="[VOLLSTÄNDIGER_ORIGINALTEXT]" ; level="paragraph" ; position=2 ; sequence_in_parent=1 ; title="[Paragraph Title]"}
+{RedisChunk: key=para:[clean_name]:001 ; parent=ch:[clean_name]:001 ; children=[{child1}] ; text="[VOLLSTÄNDIGER_ORIGINALTEXT]" ; level="paragraph" ; position=2 ; sequence_in_parent=1 ; title="[Paragraph Title]"}
 
-{RedisChunk: key=subpara:[clean_name]:001 ; parent=para:[clean_name]:001 ; text="[VOLLSTÄNDIGER_ORIGINALTEXT]" ; level="subparagraph" ; position=3 ; sequence_in_parent=1 ; title="[SubParagraph Title]"}
+{RedisChunk: key=subpara:[clean_name]:001 ; parent=para:[clean_name]:001 ; children=[{child1}] ; text="[VOLLSTÄNDIGER_ORIGINALTEXT]" ; level="subparagraph" ; position=3 ; sequence_in_parent=1 ; title="[SubParagraph Title]"}
 
-{RedisChunk: key=chunk:[keyword]:001 ; parent=[parent_key] ; text="[VOLLSTÄNDIGER_ORIGINALTEXT]" ; level="chunk" ; position=4 ; sequence_in_parent=1}
+{RedisChunk: key=chunk:[keyword]:001 ; parent=[parent_key] ; children=[] ; text="[VOLLSTÄNDIGER_ORIGINALTEXT]" ; level="chunk" ; position=4 ; sequence_in_parent=1}
 ```
 
 ### Tag-Format-Regeln:
@@ -115,11 +115,11 @@ Jede Transformation besteht aus 5 Pflicht-Sektionen in dieser Reihenfolge:
 ## Redis-Upload-Commands
 
 ### JSON.SET Commands
-JSON.SET doc:[name]:001 $ '{"title":"[title]","author":"[author]","created":"[date]","total_chunks":[N],"category":"[category]","language":"[lang]"}'
-JSON.SET ch:[name]:001 $ '{"parent":"doc:[name]:001","text":"[ESCAPED_VOLLTEXT]","level":"chapter","position":1,"title":"[title]"}'
-JSON.SET para:[name]:001 $ '{"parent":"ch:[name]:001","text":"[ESCAPED_VOLLTEXT]","level":"paragraph","position":2,"sequence_in_parent":1,"title":"[title]"}'
-JSON.SET subpara:[name]:001 $ '{"parent":"para:[name]:001","text":"[ESCAPED_VOLLTEXT]","level":"subparagraph","position":3,"sequence_in_parent":1,"title":"[title]"}'
-JSON.SET chunk:[name]:001 $ '{"parent":"[parent_key]","text":"[ESCAPED_VOLLTEXT]","level":"chunk","position":4,"sequence_in_parent":1}'
+JSON.SET doc:[name]:001 $ '{"title":"[title]","author":"[author]","created":"[date]","total_chunks":[N],"category":"[category]","language":"[lang]","children":["ch:[name]:001"]}'
+JSON.SET ch:[name]:001 $ '{"parent":"doc:[name]:001","text":"[ESCAPED_VOLLTEXT]","level":"chapter","position":1,"title":"[title]","children":["para:[name]:001"]}'
+JSON.SET para:[name]:001 $ '{"parent":"ch:[name]:001","text":"[ESCAPED_VOLLTEXT]","level":"paragraph","position":2,"sequence_in_parent":1,"title":"[title]","children":["subpara:[name]:001"]}'
+JSON.SET subpara:[name]:001 $ '{"parent":"para:[name]:001","text":"[ESCAPED_VOLLTEXT]","level":"subparagraph","position":3,"sequence_in_parent":1,"title":"[title]","children":["chunk:[name]:001"]}'
+JSON.SET chunk:[name]:001 $ '{"parent":"[parent_key]","text":"[ESCAPED_VOLLTEXT]","level":"chunk","position":4,"sequence_in_parent":1,"children":[]}'
 
 ### SADD Commands
 SADD doc:[name]:001:children ch:[name]:001 ch:[name]:002

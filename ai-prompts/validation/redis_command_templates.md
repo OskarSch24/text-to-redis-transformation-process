@@ -15,7 +15,8 @@ JSON.SET {doc_key} $ '{
   "total_chunks": {chunk_count},
   "category": "{category}",
   "language": "{language}",
-  "tags": {tags_array}
+  "tags": {tags_array},
+  "children": {children_key_array}
 }'
 ```
 
@@ -28,7 +29,8 @@ JSON.SET doc:portfolio_strategies:001 $ '{
   "total_chunks": 47,
   "category": "investment", 
   "language": "de",
-  "tags": ["finance", "risk", "portfolio"]
+  "tags": ["finance", "risk", "portfolio"],
+  "children": ["ch:risk_management:001", "ch:implementation:002"]
 }'
 ```
 
@@ -39,6 +41,7 @@ JSON.SET {chunk_key} $ '{
   "text": "{escaped_full_text}",
   "level": "{hierarchy_level}",
   "position": {document_position},
+  "children": {children_key_array},
 **Beispiel Chunk:**
 ```redis
 JSON.SET chunk:diversifikation_grundstein:001 $ '{
@@ -47,6 +50,7 @@ JSON.SET chunk:diversifikation_grundstein:001 $ '{
   "level": "chunk", 
   "position": 15,
   "sequence_in_parent": 3,
+  "children": [],
   "context_title": "Portfolio Balance",
   "context_chapter": "Risk Management",
   "context_document": "Portfolio Management Strategies"

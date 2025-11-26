@@ -473,6 +473,31 @@ def check_E005_sequence_in_parent(redis_tags):
 # ERGEBNIS: ERROR bei fehlenden oder lückenhaften sequence_in_parent
 ```
 
+### E006: Children-Array-Validierung (V2)
+```python
+def check_E006_children_array_presence(redis_tags):
+    """ERROR: Fehlendes children-Array in Tags (V2 Architecture)"""
+    
+    errors = []
+    parent_levels = ['document', 'chapter', 'paragraph', 'subparagraph']
+    
+    for tag in redis_tags:
+        level = extract_level_from_tag(tag)
+        
+        # Alle Parent-Levels (und sogar Chunks in V2) sollten children haben
+        if 'children' not in tag:
+             errors.append({
+                'code': 'E006',
+                'type': 'ERROR',
+                'message': f'Fehlendes children-Array bei {extract_key_from_tag(tag)}',
+                'fix': 'Feld children=[...] hinzufügen (V2 Architecture Requirement)'
+            })
+            
+    return errors
+
+# ERGEBNIS: ERROR wenn children-Feld fehlt
+```
+
 ## WARNING-Checks (Kategorie 3)
 
 ### W001: Performance-Optimierung
@@ -644,7 +669,8 @@ def run_mandatory_checks(redis_tags, redis_commands, original_markdown):
         check_E002_hierarchy_consistency,
         lambda tags: check_E003_text_preservation(tags, original_markdown),
         check_E004_set_consistency,
-        check_E005_sequence_in_parent  # NEU
+        check_E005_sequence_in_parent,  # NEU
+        check_E006_children_array_presence # NEU (V2)
     ]
     
     for check_func in error_checks:

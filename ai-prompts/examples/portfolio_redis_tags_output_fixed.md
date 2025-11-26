@@ -14,31 +14,31 @@
 
 ### Document-Level-Tag
 ```
-{RedisDoc: key=doc:portfolio_management_strategien:001 ; title="Portfolio Management Strategien" ; author="Oskar Schindler" ; created="2024-12-27" ; total_chunks=23 ; category="investment" ; language="de" ; tags=["portfolio", "risikomanagement", "diversifikation", "investment"]}
+{RedisDoc: key=doc:portfolio_management_strategien:001 ; title="Portfolio Management Strategien" ; author="Oskar Schindler" ; created="2024-12-27" ; total_chunks=23 ; category="investment" ; language="de" ; tags=["portfolio", "risikomanagement", "diversifikation", "investment"] ; children=["ch:risikomanagement_grundlagen:001", "ch:praktische_umsetzung:002"]}
 ```
 
 ### Chapter-Level-Tags (# Headers)
 
 #### Chapter 1: Risikomanagement Grundlagen
 ```
-{RedisChunk: key=ch:risikomanagement_grundlagen:001 ; parent=doc:portfolio_management_strategien:001 ; text="# Risikomanagement Grundlagen\n\nDiversifikation ist der Grundstein erfolgreicher Investments. Ein ausgewogenes Portfolio reduziert das Gesamtrisiko durch geschickte Verteilung der Investments auf verschiedene Anlageklassen.\n\nModerne Portfoliotheorie nach Markowitz zeigt mathematisch, dass durch optimale Kombination verschiedener Assets das Gesamtrisiko unter das Risiko der einzelnen Komponenten gesenkt werden kann." ; level="chapter" ; position=1 ; title="Risikomanagement Grundlagen" ; chapter_number=1 ; context_document="Portfolio Management Strategien"}
+{RedisChunk: key=ch:risikomanagement_grundlagen:001 ; parent=doc:portfolio_management_strategien:001 ; children=["para:risiko_bewertungsmethoden:001", "para:portfoliotheorie_fundamentals:002"] ; text="# Risikomanagement Grundlagen\n\nDiversifikation ist der Grundstein erfolgreicher Investments. Ein ausgewogenes Portfolio reduziert das Gesamtrisiko durch geschickte Verteilung der Investments auf verschiedene Anlageklassen.\n\nModerne Portfoliotheorie nach Markowitz zeigt mathematisch, dass durch optimale Kombination verschiedener Assets das Gesamtrisiko unter das Risiko der einzelnen Komponenten gesenkt werden kann." ; level="chapter" ; position=1 ; title="Risikomanagement Grundlagen" ; chapter_number=1 ; context_document="Portfolio Management Strategien"}
 ```
 
 #### Chapter 2: Praktische Umsetzung
 ```
-{RedisChunk: key=ch:praktische_umsetzung:002 ; parent=doc:portfolio_management_strategien:001 ; text="# Praktische Umsetzung\n\nDie theoretischen Konzepte der Portfoliotheorie müssen in der Praxis anwendbar sein. Hierbei spielen sowohl quantitative Modelle als auch qualitative Einschätzungen eine wichtige Rolle." ; level="chapter" ; position=10 ; title="Praktische Umsetzung" ; chapter_number=2 ; context_document="Portfolio Management Strategien"}
+{RedisChunk: key=ch:praktische_umsetzung:002 ; parent=doc:portfolio_management_strategien:001 ; children=["para:asset_allocation_strategien:003"] ; text="# Praktische Umsetzung\n\nDie theoretischen Konzepte der Portfoliotheorie müssen in der Praxis anwendbar sein. Hierbei spielen sowohl quantitative Modelle als auch qualitative Einschätzungen eine wichtige Rolle." ; level="chapter" ; position=10 ; title="Praktische Umsetzung" ; chapter_number=2 ; context_document="Portfolio Management Strategien"}
 ```
 
 ### Paragraph-Level-Tags (## Headers)
 
 #### Risiko-Bewertungsmethoden
 ```
-{RedisChunk: key=para:risiko_bewertungsmethoden:001 ; parent=ch:risikomanagement_grundlagen:001 ; text="## Risiko-Bewertungsmethoden\n\nRisiko kann durch verschiedene Metriken gemessen werden. Die wichtigsten Kennzahlen umfassen Volatilität, Value at Risk (VaR) und Korrelationsanalysen zwischen verschiedenen Assets.\n\nJede Methode hat ihre spezifischen Stärken und Anwendungsbereiche." ; level="paragraph" ; position=2 ; title="Risiko-Bewertungsmethoden" ; section_number="1.1" ; sequence_in_parent=1 ; context_chapter="Risikomanagement Grundlagen" ; context_document="Portfolio Management Strategien"}
+{RedisChunk: key=para:risiko_bewertungsmethoden:001 ; parent=ch:risikomanagement_grundlagen:001 ; children=["subpara:volatilitaets_messung:001", "subpara:korrelations_analyse:002"] ; text="## Risiko-Bewertungsmethoden\n\nRisiko kann durch verschiedene Metriken gemessen werden. Die wichtigsten Kennzahlen umfassen Volatilität, Value at Risk (VaR) und Korrelationsanalysen zwischen verschiedenen Assets.\n\nJede Methode hat ihre spezifischen Stärken und Anwendungsbereiche." ; level="paragraph" ; position=2 ; title="Risiko-Bewertungsmethoden" ; section_number="1.1" ; sequence_in_parent=1 ; context_chapter="Risikomanagement Grundlagen" ; context_document="Portfolio Management Strategien"}
 ```
 
 #### Portfoliotheorie Fundamentals
 ```
-{RedisChunk: key=para:portfoliotheorie_fundamentals:002 ; parent=ch:risikomanagement_grundlagen:001 ; text="## Portfoliotheorie Fundamentals\n\nDie moderne Portfoliotheorie bildet das mathematische Fundament für systematisches Risikomanagement. Sie basiert auf der Annahme rationaler Marktteilnehmer und effizienter Märkte." ; level="paragraph" ; position=6 ; title="Portfoliotheorie Fundamentals" ; section_number="1.2" ; sequence_in_parent=2 ; context_chapter="Risikomanagement Grundlagen" ; context_document="Portfolio Management Strategien"}
+{RedisChunk: key=para:portfoliotheorie_fundamentals:002 ; parent=ch:risikomanagement_grundlagen:001 ; children=[] ; text="## Portfoliotheorie Fundamentals\n\nDie moderne Portfoliotheorie bildet das mathematische Fundament für systematisches Risikomanagement. Sie basiert auf der Annahme rationaler Marktteilnehmer und effizienter Märkte." ; level="paragraph" ; position=6 ; title="Portfoliotheorie Fundamentals" ; section_number="1.2" ; sequence_in_parent=2 ; context_chapter="Risikomanagement Grundlagen" ; context_document="Portfolio Management Strategien"}
 ```
 
 #### Asset Allocation Strategien
@@ -50,19 +50,19 @@
 
 #### Volatilitäts-Messung
 ```
-{RedisChunk: key=subpara:volatilitaets_messung:001 ; parent=para:risiko_bewertungsmethoden:001 ; text="### Volatilitäts-Messung\n\nVolatilität zeigt die Schwankungsbreite von Asset-Renditen über einen bestimmten Zeitraum. Standard Deviation ist die häufigste Volatilitätsmessung und zeigt die durchschnittliche Abweichung der Renditen vom Mittelwert." ; level="subparagraph" ; position=3 ; title="Volatilitäts-Messung" ; subsection_number="1.1.1" ; sequence_in_parent=1 ; context_title="Risiko-Bewertungsmethoden" ; context_chapter="Risikomanagement Grundlagen" ; context_document="Portfolio Management Strategien"}
+{RedisChunk: key=subpara:volatilitaets_messung:001 ; parent=para:risiko_bewertungsmethoden:001 ; children=["chunk:standard_deviation_berechnung:001"] ; text="### Volatilitäts-Messung\n\nVolatilität zeigt die Schwankungsbreite von Asset-Renditen über einen bestimmten Zeitraum. Standard Deviation ist die häufigste Volatilitätsmessung und zeigt die durchschnittliche Abweichung der Renditen vom Mittelwert." ; level="subparagraph" ; position=3 ; title="Volatilitäts-Messung" ; subsection_number="1.1.1" ; sequence_in_parent=1 ; context_title="Risiko-Bewertungsmethoden" ; context_chapter="Risikomanagement Grundlagen" ; context_document="Portfolio Management Strategien"}
 ```
 
 #### Korrelations-Analyse
 ```
-{RedisChunk: key=subpara:korrelations_analyse:002 ; parent=para:risiko_bewertungsmethoden:001 ; text="### Korrelations-Analyse\n\nDie Korrelation zwischen verschiedenen Assets bestimmt die Effektivität der Diversifikation. Niedrige oder negative Korrelationen ermöglichen eine bessere Risikoreduktion bei gleicher erwarteter Rendite." ; level="subparagraph" ; position=5 ; title="Korrelations-Analyse" ; subsection_number="1.1.2" ; sequence_in_parent=2 ; context_title="Risiko-Bewertungsmethoden" ; context_chapter="Risikomanagement Grundlagen" ; context_document="Portfolio Management Strategien"}
+{RedisChunk: key=subpara:korrelations_analyse:002 ; parent=para:risiko_bewertungsmethoden:001 ; children=[] ; text="### Korrelations-Analyse\n\nDie Korrelation zwischen verschiedenen Assets bestimmt die Effektivität der Diversifikation. Niedrige oder negative Korrelationen ermöglichen eine bessere Risikoreduktion bei gleicher erwarteter Rendite." ; level="subparagraph" ; position=5 ; title="Korrelations-Analyse" ; subsection_number="1.1.2" ; sequence_in_parent=2 ; context_title="Risiko-Bewertungsmethoden" ; context_chapter="Risikomanagement Grundlagen" ; context_document="Portfolio Management Strategien"}
 ```
 
 ### Content-Chunk-Level-Tags (Text ohne Headers)
 
 #### Standard Deviation Details
 ```
-{RedisChunk: key=chunk:standard_deviation_berechnung:001 ; parent=subpara:volatilitaets_messung:001 ; text="Die Berechnung der Standard Deviation erfolgt durch die Quadratwurzel der Varianz, wobei die Varianz der Durchschnitt der quadrierten Abweichungen vom Mittelwert ist." ; level="chunk" ; position=4 ; sequence_in_parent=1 ; context_title="Volatilitäts-Messung" ; context_chapter="Risikomanagement Grundlagen" ; context_document="Portfolio Management Strategien"}
+{RedisChunk: key=chunk:standard_deviation_berechnung:001 ; parent=subpara:volatilitaets_messung:001 ; children=[] ; text="Die Berechnung der Standard Deviation erfolgt durch die Quadratwurzel der Varianz, wobei die Varianz der Durchschnitt der quadrierten Abweichungen vom Mittelwert ist." ; level="chunk" ; position=4 ; sequence_in_parent=1 ; context_title="Volatilitäts-Messung" ; context_chapter="Risikomanagement Grundlagen" ; context_document="Portfolio Management Strategien"}
 ```
 
 ## Redis-Sets für Beziehungen

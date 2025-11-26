@@ -17,6 +17,11 @@ Das **Text-zu-Redis Transformation Tool** ist ein spezialisiertes System zur aut
 - Jeder Chunk enthält den kompletten Originaltext
 - Alle Formatierungen, Listen und Strukturen bleiben erhalten
 
+### ✅ Recursive Retrieval Support (V2)
+- **Children-Listen:** Jedes Element kennt seine direkten Kinder im JSON
+- **1-Request Fetch:** Ermöglicht rekursives Laden ganzer Kapitel mit einem Call
+- **Flattened Hierarchy:** Deep Nesting (>Level 4) wird zu Chunks flachgeklopft
+
 ### ✅ Hierarchie-Erhaltung  
 - Automatische Erkennung von `#` `##` `###` Headers
 - Parent-Child-Beziehungen zwischen allen Elementen
