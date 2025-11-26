@@ -189,12 +189,16 @@ def generate_redis_key(element_type, text_content, existing_keys):
 
 ### Redis-Tag-Format
 ```
-{RedisDoc: key={doc_key} ; title="{title}" ; author="{author}" ; created="{date}" ; total_chunks={count} ; category="{category}" ; language="{lang}"}
+{RedisDoc: key={doc_key} ; title="{title}" ; author="{author}" ; created="{date}" ; total_chunks={count} ; category="{category}" ; language="{lang}" ; children=[{child1}, {child2}, ...]}
 
-{RedisChunk: key={chunk_key} ; parent={parent_key} ; text="{VOLLSTÄNDIGER_TEXT}" ; level="{level}" ; position={pos} ; sequence_in_parent={seq} ; title="{title}"}
+{RedisChunk: key={chunk_key} ; parent={parent_key} ; text="{VOLLSTÄNDIGER_TEXT}" ; level="{level}" ; position={pos} ; sequence_in_parent={seq} ; title="{title}" ; children=[{child1}, ...]}
 
 {RedisSet: key={parent_key}:children ; members=[{child1}, {child2}, ...]}
 ```
+
+### KRITISCHE REGEL: Recursive Fetch Support (V2)
+Jedes Parent-Objekt (Doc, Chapter, Para, SubPara) **MUSS** ein `children`-Feld im JSON enthalten, das eine Liste seiner direkten Kind-Keys ist.
+Dies ist **ZUSÄTZLICH** zum Redis-Set.
 
 ### KRITISCHE REGEL: Set-Naming
 IMMER `:children` verwenden, NIEMALS andere Bezeichnungen wie `:chapters`:
@@ -258,17 +262,17 @@ Korrelationen sind entscheidend.
 
 ### JSON.SET Commands
 ```redis
-JSON.SET doc:portfolio_strategies:001 $ '{"title":"Portfolio Strategies","author":"Oskar Sch.","created":"2024-12-27","total_chunks":7,"category":"investment","language":"de"}'
+JSON.SET doc:portfolio_strategies:001 $ '{"title":"Portfolio Strategies","author":"Oskar Sch.","created":"2024-12-27","total_chunks":7,"category":"investment","language":"de","children":["ch:risk_management:001"]}'
 
-JSON.SET ch:risk_management:001 $ '{"parent":"doc:portfolio_strategies:001","text":"# Risk Management\\n\\nDiversifikation ist wichtig.","level":"chapter","position":1,"sequence_in_parent":1,"title":"Risk Management"}'
+JSON.SET ch:risk_management:001 $ '{"parent":"doc:portfolio_strategies:001","text":"# Risk Management\\n\\nDiversifikation ist wichtig.","level":"chapter","position":1,"sequence_in_parent":1,"title":"Risk Management","children":["para:volatility_analysis:001","para:correlation_studies:001"]}'
 
-JSON.SET para:volatility_analysis:001 $ '{"parent":"ch:risk_management:001","text":"## Volatility Analysis\\n\\nRisiko messen ist essentiell.","level":"paragraph","position":2,"sequence_in_parent":1,"title":"Volatility Analysis"}'
+JSON.SET para:volatility_analysis:001 $ '{"parent":"ch:risk_management:001","text":"## Volatility Analysis\\n\\nRisiko messen ist essentiell.","level":"paragraph","position":2,"sequence_in_parent":1,"title":"Volatility Analysis","children":["subpara:standard_deviation:001"]}'
 
-JSON.SET subpara:standard_deviation:001 $ '{"parent":"para:volatility_analysis:001","text":"### Standard Deviation\\n\\nStandardabweichung zeigt Schwankungen.","level":"subparagraph","position":3,"sequence_in_parent":1,"title":"Standard Deviation"}'
+JSON.SET subpara:standard_deviation:001 $ '{"parent":"para:volatility_analysis:001","text":"### Standard Deviation\\n\\nStandardabweichung zeigt Schwankungen.","level":"subparagraph","position":3,"sequence_in_parent":1,"title":"Standard Deviation","children":["chunk:beta_koeffizienten_messen:001"]}'
 
-JSON.SET chunk:beta_koeffizienten_messen:001 $ '{"parent":"subpara:standard_deviation:001","text":"Beta-Koeffizienten messen Marktrisiko.","level":"chunk","position":4,"sequence_in_parent":1}'
+JSON.SET chunk:beta_koeffizienten_messen:001 $ '{"parent":"subpara:standard_deviation:001","text":"Beta-Koeffizienten messen Marktrisiko.","level":"chunk","position":4,"sequence_in_parent":1,"children":[]}'
 
-JSON.SET para:correlation_studies:001 $ '{"parent":"ch:risk_management:001","text":"## Correlation Studies\\n\\nKorrelationen sind entscheidend.","level":"paragraph","position":5,"sequence_in_parent":2,"title":"Correlation Studies"}'
+JSON.SET para:correlation_studies:001 $ '{"parent":"ch:risk_management:001","text":"## Correlation Studies\\n\\nKorrelationen sind entscheidend.","level":"paragraph","position":5,"sequence_in_parent":2,"title":"Correlation Studies","children":[]}'
 ```
 
 ### SADD Commands

@@ -55,6 +55,17 @@ Die Korrelation zwischen Assets bestimmt die Effektivität.
 {RedisChunk: key=chunk:asset_correlation:001 ; parent=subpara:diversification_methods:001 ; level="chunk"}
 ```
 
+#### Level 6+: Deep Nesting Flattening
+Headers ab Level 4 (`####`, `#####`) werden **NICHT** als eigene Hierarchie-Ebene angelegt (kein `subsubpara`).
+Stattdessen werden sie zu **formatierten Text-Chunks**:
+```markdown
+#### Deep Detail
+```
+→
+```
+{RedisChunk: text="**Deep Detail**" ; parent=subpara:diversification_methods:001 ; level="chunk"}
+```
+
 ### Parent-Child-Beziehungen
 
 #### Explizite Parent-Referenzen

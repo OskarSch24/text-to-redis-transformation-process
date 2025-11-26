@@ -103,6 +103,13 @@
           "maxItems": 20,
           "uniqueItems": true,
           "description": "Such-Tags aus YAML Front Matter"
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/redis_key_pattern"
+          },
+          "description": "V2 Architecture: List of direct child keys for recursive fetch"
         }
       },
       "additionalProperties": false
@@ -121,6 +128,13 @@
         "parent": {
           "$ref": "#/definitions/redis_key_pattern",
           "description": "Key des direkten Parent-Elements (nicht bei Document-Level)"
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/redis_key_pattern"
+          },
+          "description": "V2 Architecture: List of direct child keys for recursive fetch"
         },
         "text": {
           "type": "string",

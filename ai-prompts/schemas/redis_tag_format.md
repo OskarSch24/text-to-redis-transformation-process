@@ -21,7 +21,13 @@ Das Redis-Tag-System transformiert hierarchische Markdown-Dokumente in Redis-kom
 
 ### Content-Level Tags  
 ```
-{RedisChunk: key={chunk_key} ; parent={parent_key} ; text="{complete_text}" ; level="{hierarchy_level}" ; position={sequence_number} ; sequence_in_parent={parent_sequence} ; title="{heading_title}"}
+{RedisChunk: key={chunk_key} ; parent={parent_key} ; children=[{child1}, {child2}] ; text="{complete_text}" ; level="{hierarchy_level}" ; position={sequence_number} ; sequence_in_parent={parent_sequence} ; title="{heading_title}"}
+```
+
+### Index-Level Tags (V2 Architecture)
+```
+{RedisIndex: key=index:path ; type="path_index" ; documents=[...]}
+{RedisIndex: key=index:content ; type="content_index" ; documents=[...]}
 ```
 
 ### Relationship-Level Tags
@@ -65,13 +71,16 @@ Das Redis-Tag-System transformiert hierarchische Markdown-Dokumente in Redis-kom
 
 ### Chapter-Level-Tags
 ```
-{RedisChunk: key=ch:{topic_keyword}:{number} ; parent=doc:{doc_id} ; text="{complete_chapter_text}" ; level="chapter" ; position={doc_position} ; sequence_in_parent={seq} ; title="{chapter_title}" ; chapter_number={ch_num}}
+{RedisChunk: key=ch:{topic_keyword}:{number} ; parent=doc:{doc_id} ; children=[{child1}, {child2}] ; text="{complete_chapter_text}" ; level="chapter" ; position={doc_position} ; sequence_in_parent={seq} ; title="{chapter_title}" ; chapter_number={ch_num}}
 ```
 
 **Beispiel:**
 ```
-{RedisChunk: key=ch:portfolio_theory_fundamentals:001 ; parent=doc:portfolio_management_strategies:001 ; text="# Portfolio Theory Fundamentals\n\nDiversifikation ist der Grundstein erfolgreicher Investments." ; level="chapter" ; position=1 ; sequence_in_parent=1 ; title="Portfolio Theory Fundamentals" ; chapter_number=1}
+{RedisChunk: key=ch:portfolio_theory_fundamentals:001 ; parent=doc:portfolio_management_strategies:001 ; children=["para:risk:001", "para:modern:002"] ; text="# Portfolio Theory Fundamentals\n\nDiversifikation ist der Grundstein erfolgreicher Investments." ; level="chapter" ; position=1 ; sequence_in_parent=1 ; title="Portfolio Theory Fundamentals" ; chapter_number=1}
 ```
+
+### Recursive Fetch Support (V2)
+Das `children`-Feld (JSON Array) ist PFLICHT für alle Parent-Elemente (Doc, Chapter, Para, SubPara). Es ermöglicht den schnellen rekursiven Abruf aller Inhalte.
 
 ### sequence_in_parent Verwendung (KRITISCH)
 
