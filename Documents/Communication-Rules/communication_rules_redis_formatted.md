@@ -1,0 +1,204 @@
+---
+user_id: user_[Oskar Sch.]_001
+company_id: comp_[AMQ]_001
+document_id: doc_[communication_rules]_001
+document_title: "Communication Rules"
+author: "Oskar Sch."
+created: 2025-08-17
+---
+
+# Communication Rules
+
+## Rule 01: Principles in Communication
+### Key Guidelines
+#### Declare Don't Suggest
+Use statements that set standards and express certainty. Avoid hedging, excessive politeness, or "maybe" language. Your words should feel like a benchmark others want to measure themselves against.
+
+#### Lead by Principle
+Reference timeless truths, foundational principles, or lived experience as the basis for what you say. Do not rely on opinion—demonstrate understanding and mastery.
+
+#### Command with Calm Confidence
+Authority is shown through calm assurance, not aggression or volume. Every line should make clear you are in command of yourself and your domain.
+
+#### Inspire Emulation Not Obedience
+Write so that people feel drawn to follow your example, not just your instructions. Let your standard become the aspiration of others.
+
+#### Dominance with Dignity
+Even when firm or directive, maintain dignity and respect. Never belittle or patronize; instead, elevate others by holding high standards.
+
+#### Purposeful Tone
+Speak as one with a mission. Make clear you act from a higher purpose—be it mastery, virtue, or excellence—never mere ego or self-interest.
+
+#### Expectation Not Request
+Frame your words as expectations—of yourself and of others—not as favors or pleas. You set the tone and rhythm; others rise to meet it.
+
+## Rule 02: Simple Clear Communication
+Don't use language that sounds like it belongs in a university lecture or a textbook. Your job is to make every idea easy to understand, direct, and relatable—without hiding meaning behind complicated grammar or uncommon words. Good communication means saying everything needed, as simply as possible, so your message lands with clarity and impact, no matter who is listening.
+
+### Key Guidelines
+#### Use Simple Words
+Use simple words and clear sentences. Avoid jargon or old-fashioned grammar.
+
+#### Explain Thoroughly
+Explain every idea thoroughly. Give as much detail as needed for full understanding—don't leave things vague.
+
+#### Keep It Digestible
+Keep it digestible, not oversimplified. Make paragraphs long enough to explain, but never so short that key context is lost.
+
+#### Define Difficult Words
+If you use a difficult word, define or rephrase it immediately.
+
+#### Stay Relatable
+Speak in the present and stay relatable. Write like you're talking to a smart friend.
+
+## Rule 03: Bold Provocative Value
+Be Bold, Be Provocative, But Always Deliver Value. Don't play it safe or try to please everyone. Your words should grab attention, challenge, and even provoke disagreement when needed. However, every bold statement must serve a real purpose: to deliver value, clarity, or meaningful insight. Never be controversial just for the sake of noise—value always comes first.
+
+### Key Guidelines
+#### Dare to Stand Out
+Take clear positions and don't water down your message.
+
+#### Welcome Strong Reactions
+It's good if people feel strongly about what you say.
+
+#### Never Sacrifice Substance
+Every provocative line must teach, help, or clarify.
+
+#### Never Provoke for Effect
+If your message doesn't add value, don't say it.
+
+#### Lead with Value
+Your boldness should make the insight land deeper, not distract from it.
+
+## Rule 04: Rhetorical Elements
+Once your point is clear and logical, use the classic elements of rhetoric—like metaphor, analogy, repetition, or a striking question—to reinforce your message and make it memorable. Rhetorical devices aren't for showing off or complicating your language; they exist to give your ideas more power, resonance, and emotional weight. Use them at the end or the start of your communication, never in a way that distracts from clarity. The right rhetorical tool turns a simple statement into something people remember and act on.
+
+## Rule 05: Logical Structure
+Every message must follow a clear, rational structure. Each claim must be supported by evidence or clear reasoning. Move step by step—show how one point leads to the next. Avoid gaps, assumptions, or emotional leaps. If you state a conclusion, make sure it follows from your previous points. If you make a claim, explain why it's true. Your writing should read like a chain with no missing links—so anyone can follow your logic from start to finish.
+
+### How Logic Works in Communication
+#### Premise Conclusion Structure
+Clearly state your starting point (premise), then show how you reach your end point (conclusion).
+
+#### Evidence and Examples
+Back up your claims with facts, statistics, real examples, or logical explanations.
+
+#### Cause and Effect
+Show how one thing leads to another. ("If A happens, B follows.")
+
+#### Stepwise Reasoning
+Present your points in order, with each step building on the last.
+
+#### Avoiding Fallacies
+Don't use flawed arguments like appeals to emotion, popularity, or authority as proof.
+
+#### Definitions and Clarification
+Define key terms and make sure your meaning is always clear.
+
+#### If Then Statements
+Use logical conditions: "If you do X, Y will happen."
+
+#### Consistency
+Make sure your statements do not contradict each other.
+
+#### No Assumed Gaps
+Don't expect the reader to "fill in the blanks." Spell out every link in your chain of reasoning.
+
+#### Syllogism Example
+Major premise: All humans are mortal. Minor premise: Socrates is a human. Conclusion: Socrates is mortal.
+
+## Rule 07: Mathematical Language
+After you have explained your point with logical steps and written a full, clear conclusion, use mathematical language—a formula, framework, or "if–then" statement—as a short extension. Never use the formula alone as your conclusion; always write out the core insight or result in full sentences first. The mathematical language is a tool to summarize and make your message memorable, not to stand alone.
+
+### How to Apply
+#### Build Logic Step by Step
+Build your logic step by step.
+
+#### Write Clear Conclusion
+Write a clear, thorough conclusion in words.
+
+#### Add Formula Extension
+Only then, add a simple formula or blueprint as an extension at the end (e.g., X + Y = Z; If A, then B).
+
+#### Formula as Reminder
+The formula serves as a quick reminder, not a substitute for explanation.
+
+#### Use When Clarifying
+Use this tool only when it actually clarifies or amplifies a complex point.
+
+#### Example Usage
+When you build discipline by doing the work every day, you transform effort into habit, and habit into real results. That's the core of lasting achievement. Discipline × Consistency = Lasting Results.
+
+## Rule 08: Natural Rhythm
+Write and speak so your words have a natural, subconscious rhythm. Let your sentences move smoothly, with varied length and clear transitions, so everything feels easy and pleasant to process—never jarring, never forced. The flow should not draw attention to itself. Instead, it should quietly support the clarity, authority, and logic of your message. Aim for language that feels effortless to read or hear, keeping the audience's focus on what you're saying—not on how it's said.
+
+### Summary
+Flow is invisible when done right. Your words should always "fit"—subtly guiding the ear and mind without distraction or friction.
+
+## Rule 09: Signposting Sentences
+Signposting sentences only for Tweets, Threads, spoken word Scripts.
+
+### What This Means
+#### Definition
+Signposting means using clear, direct statements to guide the reader or listener through your message (e.g., "First, let's break this down…" "Here's the main point…" "Next, consider this…").
+
+#### Restriction
+For your brand, you restrict these overt "signpost" cues to specific formats: Tweets, Threads, Spoken word scripts.
+
+#### Other Content Types
+In all other content types (like long-form articles, website copy, etc.), you avoid explicit signposting. The flow and structure should be so clear that signposting is unnecessary and might even break immersion.
+
+### How to Apply This Rule
+#### Use Signposting In
+Twitter/X posts and threads. Spoken word/video scripts (where cues help guide the audience in real time).
+
+#### Avoid Signposting In
+Blog posts. Website copy. E-mails. Documents for reading (let structure and logic guide the reader instead).
+
+## Rule 10: First Principles
+For every complicated or foundational topic, start by asking "why" until you reach the most basic, irreducible truth—the first principle. From there, build your explanation step by step, so that every link in your logic is visible and every claim is grounded in fundamental reality. Don't rely on surface assumptions, analogies, or "it's just that way" reasoning. Instead, let your message grow from the root upward, making your logic unbreakable and your explanation complete.
+
+### Summary
+When a subject is complex, always break it down to first principles. Explain each layer in order, from the most basic truth to your final point, so your reasoning is impossible to misunderstand or question.
+
+## Rule 11: Belmarian Epiphany
+The Belmarian Epiphany derives from the Entrepreneur Luke Belmar and describes a way of communication that creates a very impactful feeling of enlightenment or epiphany.
+
+### Unexpected Statement
+Begin with a statement or belief your audience already recognizes as true. Once you've established that common ground, introduce a conclusion or perspective that's unexpected—one that flips the audience's expectation with a dose of logic so obvious in hindsight, it sparks an immediate feeling of "Why didn't I see that?" This approach turns a familiar truth on its head, creating a sharp moment of enlightenment.
+
+### Contrarian Comparison
+Take two ideas, habits, or outcomes that are usually seen as opposites, and reveal how they are actually intertwined or dependent on each other. This pattern shows that what people consider to be in conflict may, in reality, be different sides of the same coin, leading the audience to question their black-and-white thinking.
+
+### Reverse Causality
+Point out where people have misunderstood the direction of cause and effect. Instead of accepting the conventional sequence (for example, that confidence creates action), you show that the true dynamic is often the opposite: that it's taking action that actually breeds confidence. This shift can resolve confusion and give the audience a practical, actionable insight.
+
+### Reframing Rule
+Turn a perceived weakness or limitation into a strength, or vice versa. You acknowledge the pain or fear your audience feels, then reveal how it can be the exact signpost of growth or opportunity. This style of reframing helps the audience see themselves—and their challenges—in a much more empowering light.
+
+### Hidden Assumption Exposer
+Identify the unstated belief or hidden question underneath what someone is saying or asking. By surfacing this assumption and questioning it, you often reveal that the audience has been fixated on the wrong issue. This tactic redirects their energy toward what actually matters, and demonstrates deep understanding.
+
+### Scarcity to Abundance Flip
+When your audience complains about a lack—of time, money, energy, or opportunity—point out how they are, in fact, already in possession of the thing they believe is scarce. Often, it's a matter of shifting perspective to see abundance where they once saw limitation, inspiring motivation and renewed agency.
+
+### Irony or Paradox Injection
+Highlight a paradox: two qualities or actions that seem incompatible, but in reality, create each other. By drawing attention to this irony—such as how discipline is actually the path to freedom—you help your audience resolve internal contradictions and gain a more complete understanding of what it takes to succeed.
+
+### Zoom Out Principle
+Encourage the audience to step back and consider the broader context. Rather than obsessing over minor details or single tactics, you reveal how the larger pattern or foundation is what truly drives results. This zoomed-out view helps your audience prioritize what matters and make smarter decisions.
+
+### Law of Unintended Consequences
+Warn the audience of the counterintuitive results that come from following common trends or advice. By showing how chasing after something—like popularity or attention—can often backfire, you protect your audience from making mistakes driven by herd mentality and help them cultivate independent thinking.
+
+### Analogy to First Principles
+Explain complex ideas by comparing them to basic, universally understood truths from other areas of life. When you anchor your argument in a first principle or a vivid analogy, you cut through confusion and help the audience see the logic for themselves, making even difficult ideas suddenly feel accessible.
+
+## Rule 12: Avoid Wannabeism
+Avoid Wannabeism. A certain way of writing find itself in the world of business where people write as if they took a class in poetry before and not in copywriting. What happens is that one should gain the perspective that those people are beyond everything epic because they use these fancy words. Writing that way is really a wannabe thing. They try to supplement their text and their writing with words they picked from novels and poetry.
+
+### Core Principle
+The goal should be to use vocabulary as simple as possible and as unfantastic as possible. The magic has to come through the content of what is written and the logical steps of the story.
+
+### Balanced Usage
+Yet you can use these words definitely. But they should be balanced out very well with the simplicity style of writing. They should be used as an intentional tool instead of the choice of words over the entire text.
