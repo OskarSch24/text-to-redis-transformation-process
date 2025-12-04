@@ -1,0 +1,4515 @@
+{
+  "generated_at": "2025-11-26T23:33:33.041903",
+  "type": "path_index",
+  "documents": [
+    {
+      "key": "doc:brand_brief_complete_formatted:001",
+      "type": "document",
+      "children": [
+        {
+          "key": "ch:meta_data:001",
+          "type": "chapter",
+          "children": [
+            {
+              "key": "chunk:dieses_dokument_ist:001",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:version_001:002",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:oskar_schiermeister_ceo:003",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:vertraulichkeitsstufe_intern:004",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:quartalsweise_updates:005",
+              "type": "chunk",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "ch:introduction:002",
+          "type": "chapter",
+          "children": [
+            {
+              "key": "para:purpose_of_this_brand:001",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:why_this_document_exists:001",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:unify_direction_it:007",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:operationalise_performance_communication:008",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:speed_up_creation:009",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:guarantee_consistency_at:010",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:when_this_brief:011",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:this_document_is:012",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:the_brand_brief:006",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:who_will_use_it:002",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:this_document_is:013",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:where_will_the_information:003",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:the_information_of:014",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:is_this_part_of:004",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:core_brand_documents:002",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:brand_foundation:016",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:brand_brief:017",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:business_philosophy:018",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:visual_branding:019",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:communication_rules:020",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:this_document_is:015",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:executive_management:003",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:executive_tasks:021",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:goals:022",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:tasks:023",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:project_management:024",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:strategy_analysis:004",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:strategy_analysis:025",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:customer_journey:026",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:audience_analysis:027",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:risk_analysis:028",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:sentiment_analysis:029",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:competitors_analysis:030",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:content_creative:005",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:content_library:031",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:content_example:032",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:hook_library:033",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:cta_library:034",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:video_examples:035",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:copy_examples:036",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:post_specific:037",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:operations:006",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:operations:038",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:sop_overview:039",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:n8n_workflows:040",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:job_description:041",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:software_setups:042",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "ch:brand_overview:003",
+          "type": "chapter",
+          "children": [
+            {
+              "key": "para:what_is_the_brand:005",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:the_brand_is:043",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:the_tagline_is:044",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:formulate_the_elevator_pitch:006",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:amq_is_an:045",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:what_is_your_mission:007",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:ancient_arts_future_tech:007",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:the_mission_is:046",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_primary_topics:047",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:what_will_be:048",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:i_am_teaching_them:008",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:the_mission_is:049",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:the_community_does:009",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:the_community_does:050",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:dont_become_a_salesman:010",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:when_one_think:051",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_click_on:052",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:these_people_paint:053",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_frame_that:054",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:this_destructive_mindset:055",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_amount_of:056",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:yet_i_dont:057",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:a_big_part:058",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_idea_is:059",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:what_is_the_amq:008",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:amq_envisions_a:060",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:we_want_to:061",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:whats_the_unique_value:009",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:future_content_visionmission:011",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:educate_people:063",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:desanitize_the_people:064",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:destroy_the_idea:065",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:create_a_giant:066",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:amq_teaches_performance:062",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "ch:business_philosophy:004",
+          "type": "chapter",
+          "children": [
+            {
+              "key": "para:purpose_statement:010",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:the_part_about_business:012",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:ask_more_question:067",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:personal_professional_values:011",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:sales_is_the_greatest:013",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:your_life_runs:068",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:first_time_of:069",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:second_quality_of:070",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:decisions_are_crossroads:071",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:bad_decision_decrease:072",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:good_decision_increase:073",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:these_lines_are:074",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:since_lifespan_has:075",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:what_improves_decision_quality:014",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:your_own_experience:076",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:knowledge_and_skills:077",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:expert_guidance_fastest:078",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:you_dont_need:079",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:this_is_where:080",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:because_of_this:081",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:trust_is_the:082",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:when_someone_offers:083",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_best_salespeople:084",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:not_about_selling:085",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_interaction_either:086",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:sales_isnt_about:087",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:in_a_timelimited:088",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:follow_up_salesman_shouldnt:015",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:im_afraid_that:089",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:yet_that_is:090",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:in_the_show:091",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:we_are_not_politically:016",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:i_believe_in:092",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:bullying_is_not:093",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:simple_logic_if:094",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:so_rather_then:095",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:that_being_said:096",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:good_is_subjective:017",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:when_i_tell:097",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:life_is_not_a:018",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:you_can_increase:098",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:life_rewards_action:019",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:without_action_education:099",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:learning_entirely:020",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:skill_and_knowledge:100",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:ignorance_is_the_killer:021",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:if_i_wouldve:101",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:not_the_fastest_but:022",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:one_can_be:102",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:in_terms_of:103",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:following_the_sentence:104",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:will_you_be:105",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_but_youll:106",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:value_is_subjective:107",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:avoid_the_paramoralistic_marketing:023",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:we_all_operate:108",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:make_your_business_art:024",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:to_many_people:109",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:sanitary_lifestyle_issue:025",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:success_is_found:110",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:youre_not_a:111",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:you_dont_help:112",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:you_wont_understand:113",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:life_is_dynamic_and:026",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:when_you_binge:114",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:yet_in_reality:115",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:for_instance_if:116",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:whats_the_point:117",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:you_need_to:118",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:what_you_should:119",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:there_is_always_a:027",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:this_is_a:120",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:they_showed_me:121",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:i_understand_that:122",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:you_overcomplicate_it_its:028",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:as_far_as:123",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:personal_professional_believes:012",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:christ_is_king:124",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:ask_more_questions:125",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:you_oversee_to:126",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:you_dont_know:127",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:education_is_ridiculously:128",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:nutrition_anatomie_include:129",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:there_is_always:130",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:principles:013",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:principles_in_sales:029",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:people_need_to:131",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:most_people_never:132",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:you_dont_tell:133",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_paradox_of:134",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:principle_take_command:135",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:exception_your_job:136",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:people_wish_to:137",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:although_most_people:138",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:everyone_just_fucking:139",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:think_how_many:140",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:when_prospects_realize:141",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:break_their_defense:142",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:sales_requires_trust:143",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:why:144",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:because_you_need:145",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:it_makes_them:146",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_they_open:147",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:so_you_need:148",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:yet_and_thats:149",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:meaning_that_your:150",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:fck_the_script:151",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:a_script_is:152",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:it_presents_a:153",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:it_doesnt_necessarily:154",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:yet_the_reason:155",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:i_argue_that:156",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:beginning_end:157",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_sale_starts:158",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:most_people_think:159",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:wrong:160",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:it_starts_the:161",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:its_less_about:162",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:most_people_obsess:163",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:always:164",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:perfect_words_and:165",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:its_not_about:166",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:doing_my_time:167",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:not_what_you:168",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_reality_is:169",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:you_use_your:170",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:principles_in_action:030",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:patternsframeworks_techniquestricks:171",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:a_big_issue:172",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:example_ive_had:173",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_next_thing:174",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:even_stochastics_a:175",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:sub_core1_thinking:176",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:maneuverability_through_knowledge:177",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:sub_soldier_algorithm:178",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:when_one_is:179",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:i_call_this:180",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:sub_5stepmusk:181",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_core_problem:182",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:step_1_make:183",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:step_2_delete:184",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:step_3_simplifyoptimize:185",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:step_4_accelerate:186",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:step_5_automate:187",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_common_mistake:188",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:key_insight_always:189",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:create_an_art:190",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:platforms_today_are:191",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:a_day_has:192",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:when_you_compare:193",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:but_what_tf:194",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:more_hours:195",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:thats_logically_wrong:196",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:there_are_24:197",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:to_sustain_even:198",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:performance_enhancing_drugs:199",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:heres_the_critical:200",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:why:201",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:since_time_is:202",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:its_not_the:203",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:what_creates_this:204",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:leverage_better_decision:205",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:leverage_billionaire_networks:206",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:leverage_expertise_decades:207",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:since_time_is:208",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:leverage_works_through:209",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:people_delegation:210",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:systems_automation:211",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:knowledge_better_decisions:212",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:they_lead_resources:213",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_question_becomes:214",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:continuous_education_with:215",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:knowledge_without_practice:216",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:each_new_skill:217",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:focus_on_highleverage:218",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:develop_metaskills_meaning:219",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:logical_chain_metaskills:220",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_you_upgrade:221",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:what_many_miss:222",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:learn_from_the:223",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:time_is_the:224",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:while_musk_is:225",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:do_until_perfect:226",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:lets_say_you:227",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:a_better_way:228",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:principles_in_feedback:031",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:mistakes_are_desired:229",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:a_mistake_that:230",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:mistakes_are_forbidden:231",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_mistakes_come:232",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:feedback_is_the:233",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:feedback_is_welcomed:234",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:criticism:235",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_the_criticism:236",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:principles_in_innovation:032",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:synthesis_the_old:237",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:there_are_numerous:238",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:what_makes_me:239",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:education:240",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:social_media:241",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:education:242",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:i_acknowledge_that:243",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:there_is_value:244",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:people_are_aware:245",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:what_is_less:246",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:my_hypothesis_is:247",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:one_might_argue:248",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:as_a_result:249",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_underlying_premise:250",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:ai_is_undoubtedly:251",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:social_media:252",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:social_media_is:253",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:a_real_stadium:254",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:people_choose_to:255",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:one_important_thing:256",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:people_like_to:257",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:right_now_something:258",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_you_use:259",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:you_can_use:260",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_you_use:261",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:right_now_making:262",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_everyone_can:263",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:people_might_see:264",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:since_there_is:265",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:these_groups_are:266",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_online_spaces:267",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:they_will_want:268",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_you_want:269",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:second_you_need:270",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:because_of_all:271",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "ch:brand_identity:005",
+          "type": "chapter",
+          "children": [
+            {
+              "key": "para:which_3_adjectives_describe:014",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:decisive_cuts_through:272",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:empowering_focuses_on:273",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:straightforward_no_fluff:274",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:what_kind_of_tonality:015",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:our_brand_voice:275",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:if_you_want:276",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:am_i_saying:277",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:am_i_truly:278",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:does_every_sentence:279",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:for_practical_guidance:280",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:dos_donts_for_our:016",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:superimportant_implementation_tips:033",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:comprehension_test_could:282",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:trust_filter_remove:283",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:faith_references_keep:284",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:humor_check_target:285",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:we_actively_highlight:281",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:which_values_or_characteristics:017",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:in_all_our:286",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:archetype_persona:018",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:core_traits:034",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:authenticity_above_all:290",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:charisma_rooted_in:291",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:subtle_rebelliona_willingness:292",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:confidence_paired_with:293",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:our_archetype_is:287",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:how_to_embody_this:035",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:dress_in_a:294",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:let_actions_speak:295",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:be_approachable_and:296",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:this_persona_is:288",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:hes_the_type:289",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:signature_style:019",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:wardrobe_visual_cues:036",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:leather_jackets_dark:298",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:subtle_jewelry_or:299",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:classic_black_and:300",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:always_wellgroomed_and:301",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:the_brands_signature:297",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:overall_visual_impact:037",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:the_effect_is:302",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_appearance_is:303",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_visual_detail:304",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:in_summary_our:305",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:signature_phrases:020",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:get_educated:306",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:make_more_money:307",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:ask_more_questions:308",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:sales_is_a:309",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:there_is_always:310",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:desired_emotions:021",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:target_feeling_for_the:038",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:inspiredbut_not_in:311",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:i_want_my:312",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:supporting_emotions:039",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:real_authority_the:313",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:selftrust_the_confidence:314",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:calm_defiance_feeling:315",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:clean_energy_clear:316",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:trustearned_not_given:317",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:nogo_emotions_what_no:040",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:manipulated_pressured_or:318",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:chasing_empty_validation:319",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:left_out_insignificant:320",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:feeling_like_another:321",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:summary:041",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:you_should_leave:322",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:brand_behavioral_codes:022",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:what_types_of_mistakes:042",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:added_clarity_we:325",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:generally_speaking_the:323",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:how_should_your_team:043",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:added_clarity_if:326",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:the_idea_is:324",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:whats_your_stance_on:044",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:added_clarity_repeat:327",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:if_a_customer_or:045",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:added_clarity_we:328",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:how_much_directness_cursing:046",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:added_clarity_in:329",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:when_do_you_double:047",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:added_clarity_if:330",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:how_do_you_want:048",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:added_clarity_for:331",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:what_are_your_rules:049",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:added_clarity_major:332",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:how_do_you_balance:050",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:added_clarity_every:333",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:if_an_internal_or:051",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:added_clarity_preassign:334",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:taboos_nogos:023",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:sprachlich_wrterstil:052",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:its_a_numbers:335",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:visuell_farben_motive:053",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:neon:336",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:high_contrast:337",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:inhaltlich_themen_narrative:054",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:politics:338",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:war_as_in:339",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:mainstream_media:340",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "ch:visual_branding:006",
+          "type": "chapter",
+          "children": [
+            {
+              "key": "para:which_logovariants_exist_and:024",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:to_be_defined:341",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:which_primary_secondary_and:025",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:yellow:055",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:d3a25b:343",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:8c6c35:344",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:57401b:345",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:3b2d1c:346",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:17130f:347",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:here_are_the:342",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:green:056",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:347a66:348",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:22524b:349",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:1b403b:350",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:16322f:351",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:0e1716:352",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:blue:057",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:556271:353",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:374757:354",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:2d3641:355",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:22282f:356",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:181c22:357",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:purple:058",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:845da0:358",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:57386c:359",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:392846:360",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:271d2f:361",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:18121f:362",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:red:059",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:aa4a44:363",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:7c3737:364",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:65282c:365",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:3a1a21:366",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:211016:367",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:highcontrast_colors:060",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:olive:368",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:marble:369",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:lavender:370",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:honey_gold:371",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:pomegranate:372",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:olive_branch:373",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:redpomegranate_vertical_stack_left:061",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:ff4e50:374",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:d72631:375",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:8d1b1b:376",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:purplelavender_olive_branch_vertical:062",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:b4b9a7:377",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:8e6da6:378",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:b497bd:379",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:main_horizontal_palette_bottom:063",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:ffc30b_honey_gold:380",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:c0392b_pomegranate:381",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:808000_olive:382",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:a3b18a_olive_branch:383",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:b57edc_lavender:384",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:f4f4f4_marble:385",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:which_typography_is_used:026",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:homepage_hero:064",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:headline_rethink_sans:386",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:subheadline_lora:387",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:button_nav_inter:388",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:sales_page:065",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:big_claimtitle_rethink:389",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:explainer_text_inter:390",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:testimonials_lora_for:391",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:email_newsletter:066",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:headline_rethink_sans:392",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:body_inter:393",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:quote_lora:394",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:instagram_post:067",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:main_statement_rethink:395",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:caption_inter:396",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:pdf_guideebook:068",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:section_title_rethink:397",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:pull_quote_lora:398",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:body_inter:399",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:course_slides:069",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:slide_title_rethink:400",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:bullets_inter:401",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:key_quote_lora:402",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:community_platform:070",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:menu_chat_inter:403",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:module_header_rethink:404",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:sidebar_tip_or:405",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:webinar_landing_page:071",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:headline_rethink_sans:406",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:details_cta_inter:407",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:speaker_quote_lora:408",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:which_image_style_and:027",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:1_baroque_luxury_mastery:072",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:usage_use_as:409",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:feel_ornate_sophisticated:410",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dont_never_let:411",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:2_minimalism_clarity_focus:073",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:usage_minimalism_is:412",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:feel_modern_direct:413",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dont_dont_crowd:414",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:3_silhouette_signature_impact:074",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:usage_use_bold:415",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:feel_striking_mysterious:416",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dont_dont_overcomplicate:417",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:4_cinematic_emotional_pull:075",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:usage_every_image:418",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:feel_feels_like:419",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dont_avoid_pastel:420",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:5_grunge_realness_rebellion:076",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:usage_add_tactile:421",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:feel_livedin_rebellious:422",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dont_never_overpower:423",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:6_editorial_structure_authority:077",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:usage_use_a:424",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:feel_premium_magazine:425",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dont_dont_use:426",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:7_dark_academiadark_bohemian:078",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:usage_for_occasional:427",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:feel_intellectual_thoughtful:428",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dont_dont_go:429",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:iconography:079",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:style_minimalist_geometric:430",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dont_no_neon:431",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:photography_video:080",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:direction_editorial_and:432",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:signature_looks_bold:433",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:do_show_process:434",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:applications_touchpoints:081",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:website_hero_sections:435",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:social_media_every:436",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:course_contentskool_cover:437",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:emailnewsletter_minimal_grid:438",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:dos_donts_brandspecific:082",
+                  "type": "subparagraph",
+                  "children": []
+                },
+                {
+                  "key": "subpara:do:083",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:balance_edge_and:439",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:lead_with_clarity:440",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:ensure_every_visual:441",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:dont:084",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:never_look_mainstream:442",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_neon_no:443",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:never_use_visuals:444",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:references_moodboards:085",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:modern_editorial_covers:445",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:caravaggio_lighting_for:446",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:nike_hero_shotsbut:447",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:peergroup_club_visuals:448",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:subtle_nods_to:449",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:end_result:086",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:every_amq_brand:450",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:this_is_a:451",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:we_combine_classic:452",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:you_wont_find:453",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:nogos_forbidden_visuals_styles:028",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:colors:087",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:no_neon_or:455",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_pastel_candy:456",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_rainbow_gradients:457",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:the_amq_brand:454",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:styles:088",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:no_mainstream_guru:458",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_childish_cartoonish:459",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_motivational_poster:460",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_maximalist_cluttered:461",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_washedout_or:462",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:fonts:089",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:no_generic_system:463",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_handwriting_or:464",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_fakegothic_or:465",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:image_worlds:090",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:no_obvious_stock:466",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_photos_that:467",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_images_that:468",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_influencer_imagery:469",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:general:091",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:never_use_visuals:470",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:never_crowd_layouts:471",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:do_not_reference:472",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:summary:092",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:the_brands_visual:473",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:only_use_colors:474",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:when_in_doubt:475",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:accessibility_standards:029",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:all_amq_brand:476",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:this_means_we:477",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:every_image_and:478",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:interactive_elements_feature:479",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:we_routinely_test:480",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:accessibility_isnt_an:481",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "ch:offer_service:007",
+          "type": "chapter",
+          "children": [
+            {
+              "key": "para:what_are_the_main:030",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:skool_community:093",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:the_core_product:482",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_general_structure:483",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:beside_the_49:484",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:the_modules_are_as:094",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:module_01_introduction:485",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:module_02_needs:486",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:module_03_offer:487",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:module_04_objection:488",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:module_05_closing:489",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:additionally_to_the:490",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:i_also_added:491",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_information_given:492",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:it_is_important:493",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:this_tool_critically:494",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_ai_avatar:495",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:due_to_my:496",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:further_skoolphases:095",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:in_phase_02:497",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:in_phase_03:498",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:what_is_skool:096",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:skool_is_an:499",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:further_projects:097",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:private_community_future:500",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:enterprise_clients_future:501",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:enterprise_presentations_future:502",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:input_courses_get:503",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:output_courses_post:504",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:improving_processes:505",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:value_obtained_in_the:031",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:phase_01_first_touchpoint:098",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:the_first_phase:506",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:educate:507",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:all_educational_content:508",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:entertain:509",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_entertaining_content:510",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:to_inspire:511",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:inspiring_content_motivates:512",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:core_topics_that_are:099",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:every_reason_why:513",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_reason_why:514",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_objection_people:515",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_example_for:516",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:value_in_phase:517",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:phase_02_consideration_commitment:100",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:the_second_phase:518",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:here_the_value:519",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:content_is_still:520",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:educate:521",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:educational_value_in:522",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:entertain:523",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:entertainment_in_this:524",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:inspire:525",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_inspiration_offered:526",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:technical_and_ai_implementation:101",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:all_content_in:527",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_story_resource:528",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:engagement_is_tracked:529",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:summary_both_phases:530",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:generally_core_topics_that:102",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:every_reason_why:531",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_reason_why:532",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:implement_all_the:533",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_objection_people:534",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_example_for:535",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:whats_the_benefit_ladder:032",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:you_get_a:536",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:what_is_the_pricing:033",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:meaning:103",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:099_members_47mrr:538",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:100199_members_57mrr:539",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:200299_members_67mrr:540",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:300399_members_77mrr:541",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:and_so_on:542",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_member_will:543",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:yet_if_a:544",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:pricing_for_personal:545",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:the_primary_pricing:537",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:how_do_will_the:034",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:shortterm_development_julyoctober_2025:104",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:build_the_core:548",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:add_50_videos:549",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:roll_out_transparent:550",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:automate_90_of:551",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:hit_100_members:552",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:these_moves_connect:553",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:amq_will_develop:546",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:midterm_development_november_2025june:105",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:expand_reach_while:554",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:integrate_100200_videos:555",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:launch_phase_2:556",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:grow_to_2000:557",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:address_doubts_in:558",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:this_phase_shifts:559",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:i_will_also:547",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:longterm_development_july_2026june:106",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:create_a_selfrunning:560",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:evolve_into_educore:561",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:build_replicable_ai:562",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:form_100person_company:563",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:scale_to_enterprise:564",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_chain_holds:565",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:content_automation_enduring:566",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:which_services_and_what:035",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:no_done_for:567",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:i_will_never:568",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:i_will_never:569",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:amq_does_not:570",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "chunk:amq_is_not:571",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:which_core_processes_and:036",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:to_be_defined:572",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "ch:future_elaborations_and_ideas:008",
+          "type": "chapter",
+          "children": [
+            {
+              "key": "chunk:principles_for_love:573",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:principles_for_life:574",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:we_are_all:575",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:enter_their_universe:576",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:speak_their_language:577",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:understand_their_subjective:578",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:performance_communication_is:579",
+              "type": "chunk",
+              "children": []
+            },
+            {
+              "key": "chunk:what_pc_is:580",
+              "type": "chunk",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "doc:communication_rules:001",
+      "type": "document",
+      "children": [
+        {
+          "key": "ch:communication_rules:001",
+          "type": "chapter",
+          "children": [
+            {
+              "key": "para:rule_01_principles_in:001",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:key_guidelines:001",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:declare_dont_suggest:001",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:use_statements_that:002",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:lead_by_principle:003",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:reference_timeless_truths:004",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:command_with_calm:005",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:authority_is_shown:006",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:inspire_emulation_not:007",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:write_so_that:008",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dominance_with_dignity:009",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:even_when_firm:010",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:purposeful_tone:011",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:speak_as_one:012",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:expectation_not_request:013",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:frame_your_words:014",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:rule_02_simple_clear:002",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:key_guidelines:002",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:use_simple_words:016",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:use_simple_words:017",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:explain_thoroughly:018",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:explain_every_idea:019",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:keep_it_digestible:020",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:keep_it_digestible:021",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:define_difficult_words:022",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_you_use:023",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:stay_relatable:024",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:speak_in_the:025",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:dont_use_language:015",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:rule_03_bold_provocative:003",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:key_guidelines:003",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:dare_to_stand:027",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:take_clear_positions:028",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:welcome_strong_reactions:029",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:its_good_if:030",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:never_sacrifice_substance:031",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:every_provocative_line:032",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:never_provoke_for:033",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_your_message:034",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:lead_with_value:035",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:your_boldness_should:036",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:be_bold_be:026",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:rule_04_rhetorical_elements:004",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "chunk:once_your_point:037",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:rule_05_logical_structure:005",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:how_logic_works_in:004",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:premise_conclusion_structure:039",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:clearly_state_your:040",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:evidence_and_examples:041",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:back_up_your:042",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:cause_and_effect:043",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:show_how_one:044",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:stepwise_reasoning:045",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:present_your_points:046",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:avoiding_fallacies:047",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dont_use_flawed:048",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:definitions_and_clarification:049",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:define_key_terms:050",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:if_then_statements:051",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:use_logical_conditions:052",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:consistency:053",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:make_sure_your:054",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:no_assumed_gaps:055",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:dont_expect_the:056",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:syllogism_example:057",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:major_premise_all:058",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:every_message_must:038",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:rule_07_mathematical_language:006",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:how_to_apply:005",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:build_logic_step:060",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:build_your_logic:061",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:write_clear_conclusion:062",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:write_a_clear:063",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:add_formula_extension:064",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:only_then_add:065",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:formula_as_reminder:066",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:the_formula_serves:067",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:use_when_clarifying:068",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:use_this_tool:069",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:example_usage:070",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:when_you_build:071",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:after_you_have:059",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:rule_08_natural_rhythm:007",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:summary:006",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:flow_is_invisible:073",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:write_and_speak:072",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:rule_09_signposting_sentences:008",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:what_this_means:007",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:definition:075",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:signposting_means_using:076",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:restriction:077",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:for_your_brand:078",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:other_content_types:079",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:in_all_other:080",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:signposting_sentences_only:074",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:how_to_apply_this:008",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:use_signposting_in:081",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:twitterx_posts_and:082",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:avoid_signposting_in:083",
+                      "type": "chunk",
+                      "children": []
+                    },
+                    {
+                      "key": "chunk:blog_posts_website:084",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:rule_10_first_principles:009",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:summary:009",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:when_a_subject:086",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:for_every_complicated:085",
+                  "type": "chunk",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "para:rule_11_belmarian_epiphany:010",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:unexpected_statement:010",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:begin_with_a:088",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:the_belmarian_epiphany:087",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:contrarian_comparison:011",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:take_two_ideas:089",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:reverse_causality:012",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:point_out_where:090",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:reframing_rule:013",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:turn_a_perceived:091",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:hidden_assumption_exposer:014",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:identify_the_unstated:092",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:scarcity_to_abundance_flip:015",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:when_your_audience:093",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:irony_or_paradox_injection:016",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:highlight_a_paradox:094",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:zoom_out_principle:017",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:encourage_the_audience:095",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:law_of_unintended_consequences:018",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:warn_the_audience:096",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "subpara:analogy_to_first_principles:019",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:explain_complex_ideas:097",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "para:rule_12_avoid_wannabeism:011",
+              "type": "paragraph",
+              "children": [
+                {
+                  "key": "subpara:core_principle:020",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:the_goal_should:099",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "chunk:avoid_wannabeism_a:098",
+                  "type": "chunk",
+                  "children": []
+                },
+                {
+                  "key": "subpara:balanced_usage:021",
+                  "type": "subparagraph",
+                  "children": [
+                    {
+                      "key": "chunk:yet_you_can:100",
+                      "type": "chunk",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
